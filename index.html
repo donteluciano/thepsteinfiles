@@ -60,9 +60,9 @@ a{color:var(--lk);text-decoration:none}a:hover{text-decoration:underline}
 
 /* HOME - Wikipedia Portal Style */
 .hp{min-height:calc(100vh - 180px);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;text-align:center}
-.hp-logo{position:relative;width:200px;height:200px;margin:0 auto 20px}
-.hp-globe{width:200px;height:200px;border-radius:50%;background:linear-gradient(135deg,#e8e8e8 0%,#f5f5f5 50%,#e0e0e0 100%);display:flex;align-items:center;justify-content:center;font-family:var(--sf);font-size:100px;font-weight:700;color:#333;box-shadow:inset 0 -20px 40px rgba(0,0,0,.1),0 4px 20px rgba(0,0,0,.15);position:relative}
-.hp-globe::before{content:'';position:absolute;top:10%;left:15%;width:30%;height:20%;background:rgba(255,255,255,.4);border-radius:50%;transform:rotate(-20deg)}
+.hp-logo{position:relative;width:220px;height:220px;margin:0 auto 20px}
+.hp-globe{width:220px;height:220px;position:relative}
+.hp-globe svg{width:100%;height:100%}
 .hp-langs{position:absolute;width:320px;height:320px;top:50%;left:50%;transform:translate(-50%,-50%)}
 .hp-lang{position:absolute;font-size:13px;color:var(--tx2);white-space:nowrap}
 .hp-lang a{color:var(--lk);text-decoration:none}.hp-lang a:hover{text-decoration:underline}
@@ -236,7 +236,28 @@ const all=Object.entries(DB),tc=all.reduce((s,[,p])=>s+(p.con?p.con.length:0),0)
 const langs=['English','Español','Français','Deutsch','中文','Português','Русский','日本語'];
 let langHtml=langs.map(l=>'<div class="hp-lang"><a href="#">'+l+'</a></div>').join('');
 return '<div class="hp">'+
-'<div class="hp-logo"><div class="hp-globe">J</div><div class="hp-langs">'+langHtml+'</div></div>'+
+'<div class="hp-logo"><div class="hp-globe">'+
+'<svg viewBox="0 0 220 220">'+
+'<defs><clipPath id="gc"><circle cx="110" cy="110" r="100"/></clipPath></defs>'+
+'<circle cx="110" cy="110" r="105" fill="none" stroke="#ccc" stroke-width="1"/>'+
+'<g clip-path="url(#gc)">'+
+'<circle cx="110" cy="110" r="100" fill="#f5f5f5"/>'+
+'<path d="M10,110 Q60,60 110,10 Q160,60 210,110 Q160,160 110,210 Q60,160 10,110" fill="none" stroke="#ddd" stroke-width="1"/>'+
+'<path d="M110,10 L110,210" stroke="#ddd" stroke-width="1"/>'+
+'<path d="M10,110 L210,110" stroke="#ddd" stroke-width="1"/>'+
+'<path d="M30,50 Q70,80 60,110 Q50,140 80,170" fill="#9cc" stroke="#7aa" stroke-width="1.5" opacity=".8"/>'+
+'<path d="M60,30 Q100,50 120,40 Q140,30 160,50 Q150,80 130,90" fill="#c9c" stroke="#a7a" stroke-width="1.5" opacity=".8"/>'+
+'<path d="M150,70 Q180,90 190,130 Q185,160 160,170 Q140,150 150,120" fill="#cc9" stroke="#aa7" stroke-width="1.5" opacity=".8"/>'+
+'<path d="M40,130 Q60,150 50,180 Q70,200 100,190 Q90,160 100,140" fill="#9cc" stroke="#7aa" stroke-width="1.5" opacity=".8"/>'+
+'<path d="M120,150 Q150,160 170,190 Q140,200 120,190 Q100,180 110,160" fill="#c9c" stroke="#a7a" stroke-width="1.5" opacity=".8"/>'+
+'<path d="M70,70 Q90,60 100,80 Q110,100 90,110 Q70,100 70,80" fill="#cc9" stroke="#aa7" stroke-width="1.5" opacity=".8"/>'+
+'<path d="M130,100 Q150,90 160,110 Q155,130 135,130 Q120,120 125,105" fill="#9cc" stroke="#7aa" stroke-width="1.5" opacity=".8"/>'+
+'</g>'+
+'<ellipse cx="110" cy="200" rx="60" ry="8" fill="rgba(0,0,0,.1)"/>'+
+'<circle cx="110" cy="110" r="100" fill="none" stroke="#bbb" stroke-width="2"/>'+
+'<text x="110" y="135" text-anchor="middle" font-family="Linux Libertine,Georgia,serif" font-size="90" font-weight="700" fill="#333">J</text>'+
+'</svg>'+
+'</div><div class="hp-langs">'+langHtml+'</div></div>'+
 '<div class="hp-title">Jikipedia</div>'+
 '<div class="hp-sub">The Free Network Encyclopedia</div>'+
 '<div class="hp-stats"><b>'+all.length+'</b> articles &bull; <b>'+tc+'</b> documented connections</div>'+
