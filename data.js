@@ -830,7 +830,7 @@ con:[{t:"jeffrey-epstein",r:"Estate funded it"}]},
 
 "miami-herald":{n:"Miami Herald",cat:"Source",
 sum:"~200+ articles. Julie K. Brown's 'Perversion of Justice' series (Nov 2018) single-handedly revived the Epstein case, leading to his 2019 re-arrest. Won two George Polk Awards.",
-det:"Key Articles:\n• 'Perversion of Justice' series (November 2018) — the investigation that changed everything\n• Ongoing coverage of 2026 DOJ releases\n• Brown's book 'Perversion of Justice' (2021)\n\nKey Reporter: Julie K. Brown\n\nNote: Alan Dershowitz tried to pressure Pulitzer committee to exclude Brown.",
+det:"Key Articles:\n\n• <a href='https://www.miamiherald.com/news/local/article220097825.html' target='_blank'>Perversion of Justice: Part 1</a> — How a future Trump Cabinet member gave a serial sex abuser the deal of a lifetime\n• <a href='https://www.miamiherald.com/news/local/article221404845.html' target='_blank'>Perversion of Justice: Part 2</a> — For years, Jeffrey Epstein abused teen girls, police say\n• <a href='https://www.miamiherald.com/news/local/article221957120.html' target='_blank'>Perversion of Justice: Part 3</a> — Cops worked to put Jeffrey Epstein away. Prosecutors worked to cut him a break.\n\nKey Reporter: Julie K. Brown\n\nNote: Alan Dershowitz tried to pressure Pulitzer committee to exclude Brown.",
 con:[{t:"jeffrey-epstein",r:"Breakthrough investigation"}]},
 
 "bloomberg-news":{n:"Bloomberg News",cat:"Source",
@@ -840,17 +840,17 @@ con:[{t:"jeffrey-epstein",r:"Email cache obtained"},{t:"leon-black",r:"Financial
 
 "new-york-times":{n:"New York Times",cat:"Source",
 sum:"~300+ articles. Extensive institutional coverage since 2019: Leon Black $158M payments, Bill Gates meetings, Harvard/MIT funding scandals, Maxwell trial.",
-det:"Key Stories:\n• Leon Black / $158M payments to Epstein\n• Bill Gates-Epstein meetings\n• Harvard/MIT funding scandals\n• Maxwell trial coverage\n• Steven Mnuchin/Milken plane reporting\n\nCriticism: Employed Landon Thomas Jr., who privately corresponded with Epstein.",
+det:"Key Articles:\n\n• <a href='https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html' target='_blank'>Bill Gates Met With Jeffrey Epstein Many Times</a>\n• <a href='https://www.nytimes.com/2021/01/25/business/leon-black-jeffrey-epstein.html' target='_blank'>Leon Black Paid Jeffrey Epstein $158 Million</a>\n• <a href='https://www.nytimes.com/2019/09/05/business/mit-media-lab-jeffrey-epstein.html' target='_blank'>M.I.T. Media Lab, Already Rattled, Confronts the Epstein Debacle</a>\n• <a href='https://www.nytimes.com/2019/09/12/business/jeffrey-epstein-harvard.html' target='_blank'>Harvard Names Jeffrey Epstein Donors</a>\n• <a href='https://www.nytimes.com/2021/12/29/nyregion/ghislaine-maxwell-verdict.html' target='_blank'>Ghislaine Maxwell Found Guilty of Sex Trafficking</a>\n\nCriticism: Employed Landon Thomas Jr., who privately corresponded with Epstein.",
 con:[{t:"leon-black",r:"$158M story"},{t:"bill-gates",r:"Meetings coverage"},{t:"harvard-university",r:"Funding scandal"},{t:"mit-media-lab",r:"Funding scandal"}]},
 
 "wall-street-journal":{n:"Wall Street Journal",cat:"Source",
 sum:"~200+ articles. Leon Black's 69 bank accounts revealed, Trump's birthday note to Epstein, extensive corporate coverage. Owned by Rupert Murdoch (in Epstein's black book).",
-det:"Key Stories:\n• Leon Black financial architecture (69 bank accounts, $2B art collateral)\n• Trump's alleged 'bawdy' 50th birthday note to Epstein (2003)\n• Corporate accountability coverage\n\nNote: Owned by Rupert Murdoch's News Corp. Murdoch is in Epstein's black book.",
+det:"Key Articles:\n\n• <a href='https://www.wsj.com/articles/leon-blacks-ties-to-jeffrey-epstein-were-deeper-than-he-acknowledged-11611771284' target='_blank'>Leon Black's Ties to Jeffrey Epstein Were Deeper Than He Acknowledged</a>\n• <a href='https://www.wsj.com/articles/jeffrey-epstein-files-reveal-trump-note-celebrity-photos-at-mansion-3db5b7b5' target='_blank'>Epstein Files Reveal Trump Note, Celebrity Photos</a>\n• <a href='https://www.wsj.com/articles/jpmorgan-to-pay-290-million-to-settle-epstein-victims-lawsuit-cc6bc5ad' target='_blank'>JPMorgan to Pay $290 Million to Settle Epstein Victims' Lawsuit</a>\n\nNote: Owned by Rupert Murdoch's News Corp. Murdoch is in Epstein's black book.",
 con:[{t:"leon-black",r:"Financial investigation"},{t:"donald-trump",r:"Birthday note story"},{t:"rupert-murdoch",r:"Owner in black book"}]},
 
 "the-guardian":{n:"The Guardian",cat:"Source",
 sum:"~250+ articles. Strongest on UK/European angles: Prince Andrew, Peter Mandelson, Crown Princess Mette-Marit. 'The emails showcase the private behaviour of a male ruling class.'",
-det:"Key Stories:\n• Prince Andrew coverage\n• Peter Mandelson revelations\n• Crown Princess Mette-Marit\n• John Casablancas/Elite Models connection\n• UK political fallout (Starmer government)\n• Morgan McSweeney resignation",
+det:"Key Articles:\n\n• <a href='https://www.theguardian.com/uk-news/2019/nov/16/prince-andrew-bbc-interview-jeffrey-epstein' target='_blank'>Prince Andrew's BBC Interview on Epstein</a>\n• <a href='https://www.theguardian.com/uk-news/2022/feb/15/prince-andrew-settles-sexual-assault-case-virginia-giuffre' target='_blank'>Prince Andrew Settles Sexual Assault Case</a>\n• <a href='https://www.theguardian.com/world/peter-mandelson' target='_blank'>Peter Mandelson Coverage</a>\n• <a href='https://www.theguardian.com/us-news/jeffrey-epstein' target='_blank'>Full Jeffrey Epstein Coverage Archive</a>\n\nNotable Quote: 'The emails showcase the private behaviour of a male ruling class.'",
 con:[{t:"prince-andrew",r:"UK coverage"},{t:"peter-mandelson",r:"Revelations"},{t:"mette-marit",r:"Norwegian royal coverage"}]},
 
 "financial-times":{n:"Financial Times",cat:"Source",
@@ -860,7 +860,7 @@ con:[{t:"ariane-de-rothschild",r:"Rothschild story"},{t:"kathy-ruemmler",r:"Gold
 
 "drop-site-news":{n:"Drop Site News",cat:"Source",
 sum:"~30+ articles. Leading independent investigation. Exclusive series on Epstein's connections to Israeli intelligence (Sept-Nov 2025). 'Blockbuster reporting not matched by mainstream media.'",
-det:"Key Stories:\n• Israeli intelligence connections series (September-November 2025)\n• Described by The Nation's Jeet Heer as 'blockbuster reporting...not matched by any comparable investigations in The New York Times or The Washington Post'\n\nKey Reporters: Ryan Grim, Murtaza Hussain, Jeremy Scahill",
+det:"Key Articles:\n\n• <a href='https://www.dropsitenews.com/p/jeffrey-epstein-israel-intelligence' target='_blank'>Epstein's Israeli Intelligence Connections</a> — September 2025\n• <a href='https://www.dropsitenews.com/p/ehud-barak-epstein' target='_blank'>Ehud Barak's Deep Ties to Epstein</a>\n• <a href='https://www.dropsitenews.com/' target='_blank'>Full Drop Site Coverage Archive</a>\n\nDescribed by The Nation's Jeet Heer as 'blockbuster reporting...not matched by any comparable investigations in The New York Times or The Washington Post.'\n\nKey Reporters: Ryan Grim, Murtaza Hussain, Jeremy Scahill",
 con:[{t:"ehud-barak",r:"Israeli intelligence angle"}]},
 
 "daily-beast":{n:"The Daily Beast",cat:"Source",

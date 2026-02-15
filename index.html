@@ -283,7 +283,7 @@ const inc=Object.entries(DB).filter(([oid,op])=>oid!==id&&op.con&&op.con.some(c=
 if(inc.length)toc+='<li><a href="#s-ref">Referenced by</a></li>';
 toc+='</ol></div>';
 let body='<div id="s-sum"><p>'+e(p.sum)+'</p></div>';
-if(p.det){body+='<h2 id="s-bg">Background</h2>';p.det.split('\n\n').forEach(para=>{body+='<p>'+e(para)+'</p>'})}
+if(p.det){body+='<h2 id="s-bg">'+(p.cat==='Source'?'Key Articles':'Background')+'</h2>';p.det.split('\n\n').forEach(para=>{body+='<p>'+(p.cat==='Source'?para:e(para))+'</p>'})}
 if(p.con&&p.con.length){body+='<h2 id="s-con">Known connections</h2><table class="ctl"><tr><th>Name</th><th>Category</th><th>Relationship</th></tr>';
 p.con.forEach(c=>{const t=DB[c.t];body+='<tr><td>'+(t?L(c.t):e(c.t.replace(/-/g,' ')))+'</td><td style="font-size:12px;color:'+(t?cc(t.cat):'#999')+'">'+(t?e(t.cat):'')+'</td><td>'+e(c.r)+'</td></tr>'});body+='</table>'}
 if(inc.length){body+='<h2 id="s-ref">Referenced by</h2><div class="rbl">'+inc.map(([oid,op])=>'<span class="rb" onclick="go(\''+oid+'\')">'+e(op.n)+'</span>').join('')+'</div>'}
