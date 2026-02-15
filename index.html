@@ -51,32 +51,50 @@ a{color:var(--lk);text-decoration:none}a:hover{text-decoration:underline}
 .tab.act{color:var(--tx);border-bottom-color:var(--tx);font-weight:500}
 
 .mc{max-width:1200px;margin:0 auto;display:flex;min-height:calc(100vh - 160px)}
+.mc.portal{max-width:100%;justify-content:center}
 .sb{width:200px;flex-shrink:0;border-right:1px solid var(--bde);padding:12px 12px 24px 20px;font-size:12.5px;overflow-y:auto;max-height:calc(100vh - 120px);position:sticky;top:0}
 .sb-sec{margin-bottom:16px}.sb-t{font-weight:700;padding:4px 0;margin-bottom:2px;font-size:12px}
 .sb-l{display:block;padding:2px 0;color:var(--lk);font-size:12.5px;line-height:1.5;cursor:pointer}
 .sb-l:hover{text-decoration:underline}
 .wc{flex:1;padding:16px 20px 40px;min-width:0;overflow-wrap:break-word}
 
-/* HOME */
-.hw{border:1px solid #a7d7f9;background:linear-gradient(180deg,#fff 0%,#f5faff 100%);padding:30px 24px;margin-bottom:24px;text-align:center}
-.hw h1{font-family:var(--sf);font-size:28px;font-weight:400;margin-bottom:8px}
-.hw h1 b{font-weight:600;color:#000}
-.hw p{font-size:14px;color:var(--tx2);max-width:650px;margin:0 auto;line-height:1.6}.hw b{color:var(--tx);font-weight:600}
-.hw-sub{font-size:12.5px;color:var(--txm);margin-top:6px}
+/* HOME - Wikipedia Portal Style */
+.hp{min-height:calc(100vh - 180px);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;text-align:center}
+.hp-logo{position:relative;width:200px;height:200px;margin:0 auto 20px}
+.hp-globe{width:200px;height:200px;border-radius:50%;background:linear-gradient(135deg,#e8e8e8 0%,#f5f5f5 50%,#e0e0e0 100%);display:flex;align-items:center;justify-content:center;font-family:var(--sf);font-size:100px;font-weight:700;color:#333;box-shadow:inset 0 -20px 40px rgba(0,0,0,.1),0 4px 20px rgba(0,0,0,.15);position:relative}
+.hp-globe::before{content:'';position:absolute;top:10%;left:15%;width:30%;height:20%;background:rgba(255,255,255,.4);border-radius:50%;transform:rotate(-20deg)}
+.hp-langs{position:absolute;width:320px;height:320px;top:50%;left:50%;transform:translate(-50%,-50%)}
+.hp-lang{position:absolute;font-size:13px;color:var(--tx2);white-space:nowrap}
+.hp-lang a{color:var(--lk);text-decoration:none}.hp-lang a:hover{text-decoration:underline}
+.hp-lang:nth-child(1){top:0;left:50%;transform:translateX(-50%)}
+.hp-lang:nth-child(2){top:15%;right:0}
+.hp-lang:nth-child(3){top:50%;right:-20px;transform:translateY(-50%)}
+.hp-lang:nth-child(4){bottom:15%;right:0}
+.hp-lang:nth-child(5){bottom:0;left:50%;transform:translateX(-50%)}
+.hp-lang:nth-child(6){bottom:15%;left:0}
+.hp-lang:nth-child(7){top:50%;left:-20px;transform:translateY(-50%)}
+.hp-lang:nth-child(8){top:15%;left:0}
+.hp-title{font-family:var(--sf);font-size:42px;font-weight:400;margin:30px 0 8px;letter-spacing:-1px}
+.hp-sub{font-size:16px;color:var(--txm);margin-bottom:30px}
+.hp-stats{font-size:14px;color:var(--tx2);margin-bottom:30px}
+.hp-stats b{color:var(--tx)}
 .hsb{text-align:center;margin:20px 0 28px;position:relative;display:inline-block;width:100%}
 .hsb-wrap{position:relative;display:inline-block;width:500px;max-width:90%}
-.hsb input{width:100%;padding:10px 16px;font-size:16px;border:2px solid var(--bd);border-radius:3px;outline:none;font-family:var(--ss)}
-.hsb input:focus{border-color:#36c}
-.hsb button{padding:10px 20px;font-size:14px;margin-left:8px;background:#f8f9fa;border:1px solid var(--bd);border-radius:3px;cursor:pointer;font-family:var(--ss)}
-.hsb button:hover{background:#eaecf0}
-.hsb-dd{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid var(--bd);border-top:none;box-shadow:0 4px 8px rgba(0,0,0,.1);z-index:100;display:none;text-align:left;max-height:400px;overflow-y:auto}
+.hsb input{width:100%;padding:12px 18px;font-size:16px;border:1px solid var(--bd);border-radius:24px;outline:none;font-family:var(--ss)}
+.hsb input:focus{border-color:#36c;box-shadow:0 0 0 3px rgba(54,102,204,.15)}
+.hsb button{padding:12px 24px;font-size:14px;margin-left:10px;background:#36c;color:#fff;border:none;border-radius:24px;cursor:pointer;font-family:var(--ss)}
+.hsb button:hover{background:#2a4d99}
+.hsb-dd{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid var(--bd);border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.12);z-index:100;display:none;text-align:left;max-height:400px;overflow-y:auto;margin-top:4px}
 .hsb-dd.open{display:block}
-.hsb-dd-i{padding:10px 14px;cursor:pointer;border-bottom:1px solid var(--bde)}
+.hsb-dd-i{padding:12px 16px;cursor:pointer;border-bottom:1px solid var(--bde)}
 .hsb-dd-i:hover,.hsb-dd-i.sel{background:#e8f0fe}
 .hsb-dd-i:last-child{border-bottom:none}
 .hsb-dd-n{font-size:15px;font-weight:500;color:var(--lk)}
 .hsb-dd-c{font-size:12px;color:var(--txm);margin-top:2px}
 .hsb-dd-s{font-size:13px;color:var(--tx2);margin-top:3px}
+.hp-enter{margin-top:20px}
+.hp-enter a{display:inline-block;padding:10px 24px;background:#f8f9fa;border:1px solid var(--bd);border-radius:4px;color:var(--lk);font-size:14px;text-decoration:none}
+.hp-enter a:hover{background:#eaecf0}
 .hcol{display:flex;gap:16px;margin-bottom:16px}.hcol>div{flex:1;min-width:0}
 .hb{border:1px solid var(--bdl);margin-bottom:16px}
 .hb-h{padding:6px 12px;font-family:var(--sf);font-size:15px;border-bottom:1px solid var(--bdl)}
@@ -206,46 +224,25 @@ const SP={
 'p-about':{t:'About',b:'<p>The Epstein Files Network Encyclopedia maps Jeffrey Epstein\'s connections — direct associates, extended network, institutions, and historical context.</p><p>Sources: government emails, court documents, flight logs, financial filings, investigative journalism.</p><p><b>Important:</b> Inclusion does not imply wrongdoing. Many listed had only social or professional contact. All presumed innocent unless convicted.</p>'}
 };
 
-function render(){const el=document.getElementById('wc');
-if(pg==='main')el.innerHTML=renderMain();
-else if(SP[pg])el.innerHTML='<div class="at-h"><h1>'+e(SP[pg].t)+'</h1></div><div class="ab">'+SP[pg].b+'</div>';
-else el.innerHTML=renderArt(pg)}
+function render(){const el=document.getElementById('wc');const sb=document.getElementById('sb');const mc=document.querySelector('.mc');
+if(pg==='main'){el.innerHTML=renderMain();sb.style.display='none';document.querySelector('.tabs').style.display='none';mc.classList.add('portal')}
+else{sb.style.display='';document.querySelector('.tabs').style.display='';mc.classList.remove('portal');
+if(SP[pg])el.innerHTML='<div class="at-h"><h1>'+e(SP[pg].t)+'</h1></div><div class="ab">'+SP[pg].b+'</div>';
+else el.innerHTML=renderArt(pg)}}
 
 function renderMain(){
 const all=Object.entries(DB),tc=all.reduce((s,[,p])=>s+(p.con?p.con.length:0),0);
-const cats={};all.forEach(([id,p])=>{const c=p.cat||"Other";if(!cats[c])cats[c]=[];cats[c].push({id,n:p.n})});
-Object.values(cats).forEach(a=>a.sort((x,y)=>x.n.localeCompare(y.n)));
-const co=["Principal","Inner Circle","Operations","Victim/Accuser","Political","Government","Legal","Finance","Tech","Philanthropy","Academia","Royalty","Entertainment","Social","Historical","Personal Associate","Other"];
-let catLinks=co.filter(c=>cats[c]).map(c=>'<a href="#" onclick="event.preventDefault();document.getElementById(\'c-'+c.replace(/[^a-z]/gi,'')+'\').scrollIntoView({behavior:\'smooth\'})">'+c+'</a> ('+cats[c].length+')').join(" &middot; ");
-let kp=["jeffrey-epstein","ghislaine-maxwell","leslie-wexner","leon-black","prince-andrew","virginia-giuffre","bill-gates","bill-clinton","donald-trump","alan-dershowitz"].map(id=>DB[id]?'<li>'+L(id)+' &mdash; '+e(DB[id].sum.split('.')[0])+'.</li>':'').join('');
-let cs=co.filter(c=>cats[c]).map(c=>'<div id="c-'+c.replace(/[^a-z]/gi,'')+'" style="margin-bottom:16px"><h3 style="font-family:var(--sf);font-size:16px;font-weight:400;border-bottom:1px solid #eaecf0;padding-bottom:2px;margin-bottom:6px"><span style="color:'+cc(c)+'">&#9632;</span> '+e(c)+' <span style="font-size:12px;color:var(--txm)">('+cats[c].length+')</span></h3><div style="font-size:13px;line-height:1.8">'+cats[c].map(p=>L(p.id)).join(' &middot; ')+'</div></div>').join('');
-return '<div class="hw"><h1>Welcome to <b>The Epstein Files</b></h1><p>The free encyclopedia mapping Jeffrey Epstein\'s network of connections &mdash; from direct associates to second and third-degree relationships across finance, politics, academia, and beyond.</p><div class="hw-sub"><b>'+all.length+'</b> articles &bull; <b>'+tc+'</b> documented connections &bull; Fully sourced from public records</div></div>'+
-'<div class="hsb"><div class="hsb-wrap"><input type="text" id="hs2" placeholder="Search people, institutions, connections..." autocomplete="off" oninput="hs2()" onfocus="hs2()" onkeydown="hs2k(event)"/><div class="hsb-dd" id="hsd"></div></div><button onclick="hs2go()">Search</button></div>'+
-'<div class="hcol"><div>'+
-'<div class="hb"><div class="hb-h blu">Featured article</div><div class="hb-b"><p><b>'+L('jeffrey-epstein')+'</b> was an American financier who cultivated one of the most extensive networks of powerful connections ever documented. With '+DB['jeffrey-epstein'].con.length+' direct connections mapped here, his network spans heads of state, billionaires, scientists, and royalty. '+L('jeffrey-epstein','Read more...')+'</p></div></div>'+
-'<div class="hb"><div class="hb-h grn">Key figures</div><div class="hb-b"><ul>'+kp+'</ul></div></div>'+
-'<div class="hb"><div class="hb-h yel">Extended network</div><div class="hb-b"><p>This encyclopedia maps <b>second and third-degree connections</b>:</p><ul>'+
-'<li>'+L('donald-barr')+' hired Epstein &rarr; son '+L('bill-barr')+' became AG during his death</li>'+
-'<li>'+L('ronald-lauder')+' &rarr; son-in-law '+L('kevin-warsh')+' on Federal Reserve</li>'+
-'<li>'+L('leon-black')+' (Apollo) &rarr; co-founders '+L('josh-harris')+' and '+L('marc-rowan')+'</li>'+
-'<li>'+L('bill-gates')+' &rarr; advisor '+L('boris-nikolic')+' named in Epstein\'s will</li></ul></div></div>'+
-'</div><div>'+
-'<div class="hb"><div class="hb-h pur">Resources</div><div class="hb-b"><ul>'+
-'<li><a href="#" onclick="event.preventDefault();go(\'p-email\')">Email Archive</a> &mdash; 700,000+ emails</li>'+
-'<li><a href="#" onclick="event.preventDefault();go(\'p-flights\')">Flight Logs</a> &mdash; aircraft records</li>'+
-'<li><a href="#" onclick="event.preventDefault();go(\'p-court\')">Court Documents</a> &mdash; filings, depositions</li>'+
-'<li><a href="#" onclick="event.preventDefault();go(\'p-articles\')">Articles</a> &mdash; investigative journalism</li>'+
-'<li><a href="#" onclick="event.preventDefault();go(\'p-videos\')">Videos</a> &mdash; documentaries</li>'+
-'<li><a href="#" onclick="event.preventDefault();go(\'p-pods\')">Podcasts</a> &mdash; All Things Epstein &amp; more</li>'+
-'<li><a href="#" onclick="event.preventDefault();go(\'p-timeline\')">Timeline</a> &mdash; key dates 1973-2025</li></ul></div></div>'+
-'<div class="hb"><div class="hb-h gry">Browse by category</div><div class="hb-b" style="font-size:12.5px;line-height:1.8">'+catLinks+'</div></div>'+
-'<div class="hb"><div class="hb-h red">Key institutions</div><div class="hb-b"><ul>'+
-'<li><b>JPMorgan Chase</b> &mdash; $365M+ settlement</li><li><b>Deutsche Bank</b> &mdash; $75M settlement</li>'+
-'<li><b>Harvard</b> &mdash; accepted $6.5M+</li><li><b>MIT Media Lab</b> &mdash; secretly solicited donations</li>'+
-'<li><b>Apollo Global</b> &mdash; CEO paid $158M in fees</li><li><b>Victoria\'s Secret / L Brands</b></li>'+
-'<li><b>MC2 Model Management</b></li><li><b>Dalton School</b></li><li><b>Kirkland &amp; Ellis</b></li>'+
-'</ul><p><i>Institutional articles coming soon.</i></p></div></div></div></div>'+
-'<h2 style="font-family:var(--sf);font-size:20px;font-weight:400;border-bottom:1px solid var(--bd);padding-bottom:3px;margin:24px 0 16px">All articles by category</h2>'+cs}
+// Languages around the globe (placeholders for translation)
+const langs=['English','Español','Français','Deutsch','中文','Português','Русский','日本語'];
+let langHtml=langs.map(l=>'<div class="hp-lang"><a href="#">'+l+'</a></div>').join('');
+return '<div class="hp">'+
+'<div class="hp-logo"><div class="hp-globe">J</div><div class="hp-langs">'+langHtml+'</div></div>'+
+'<div class="hp-title">Jikipedia</div>'+
+'<div class="hp-sub">The Free Network Encyclopedia</div>'+
+'<div class="hp-stats"><b>'+all.length+'</b> articles &bull; <b>'+tc+'</b> documented connections</div>'+
+'<div class="hsb"><div class="hsb-wrap"><input type="text" id="hs2" placeholder="Search the encyclopedia..." autocomplete="off" oninput="hs2()" onfocus="hs2()" onkeydown="hs2k(event)"/><div class="hsb-dd" id="hsd"></div></div><button onclick="hs2go()">Search</button></div>'+
+'<div class="hp-enter"><a href="#" onclick="event.preventDefault();go(\'jeffrey-epstein\')">Enter the Encyclopedia →</a></div>'+
+'</div>'}
 
 function renderArt(id){
 const p=DB[id];if(!p)return'<p>Article not found.</p>';
