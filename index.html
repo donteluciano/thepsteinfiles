@@ -165,7 +165,8 @@ function e(s){return s?s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g
 function L(id,txt){if(DB[id])return'<a href="#" onclick="event.preventDefault();go(\''+id+'\')">'+e(txt||DB[id].n)+'</a>';return e(txt||id.replace(/-/g,' '))}
 
 let pg="main";
-function go(id){pg=id;render();window.scrollTo(0,0);
+function go(id,skipHash){pg=id;render();window.scrollTo(0,0);
+if(!skipHash)window.location.hash=id==='main'?'':id;
 document.querySelectorAll('.rbar a').forEach(a=>a.classList.remove('act'));
 if(id==='main')document.querySelector('.rbar a').classList.add('act');
 // Close search dropdowns
@@ -174,6 +175,9 @@ const hsd=document.getElementById('hsd');if(hsd)hsd.classList.remove('open');
 const si=document.getElementById('si');if(si)si.value='';
 const hs2=document.getElementById('hs2');if(hs2)hs2.value='';
 }
+// Handle URL hash for direct links
+function handleHash(){const h=window.location.hash.slice(1);if(h&&(DB[h]||h.startsWith('p-')))go(h,true);else if(!h)go('main',true)}
+window.addEventListener('hashchange',handleHash);
 
 // Search
 function matchPerson(p,q){return p.n.toLowerCase().includes(q)||(p.a&&p.a.some(a=>a.toLowerCase().includes(q)))||(p.sum&&p.sum.toLowerCase().includes(q))}
@@ -298,7 +302,7 @@ if(inc.length){body+='<h2 id="s-ref">Referenced by</h2><div class="rbl">'+inc.ma
 body+='<div class="acat"><b>Categories:</b> '+e(p.cat)+'</div>';
 return'<div class="at-h"><h1>'+e(p.n)+'</h1></div><div class="ab cf">'+ib+toc+body+'</div>'}
 
-buildSB();render();
+buildSB();handleHash();
 </script>
 </body>
 </html>
