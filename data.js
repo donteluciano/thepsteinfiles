@@ -302,8 +302,8 @@ sum:"NASCAR driver. Married Sarah Kellen.",
 con:[{t:"sarah-kellen",r:"Husband"}]},
 
 "steve-bannon":{n:"Steve Bannon",b:"November 27, 1953",cat:"Political",
-sum:"Trump's former chief strategist. Hundreds of texts with Epstein 2018-2019. Received Hermes Apple Watch gift. 2-hour filmed interview with Epstein. Discussed documentary to rehabilitate Epstein's reputation.",
-con:[{t:"jeffrey-epstein",r:"Hundreds of texts 2018-2019; filmed interview"},{t:"donald-trump",r:"Former chief strategist"},{t:"kathy-ruemmler",r:"Attended dinner together"}],inst:["White House (former)","Breitbart News"]},
+sum:"American media executive and political strategist. Goldman Sachs investment banker turned Breitbart chairman. Trump's chief strategist (2017). Convicted of contempt of Congress (2022). Epstein Connection: Hundreds of texts with Epstein 2018-2019. Received Hermes Apple Watch gift. 2-hour filmed interview with Epstein. Discussed documentary to rehabilitate Epstein's reputation. Attended dinners with Epstein, Ruemmler, and Lajčák.",
+con:[{t:"jeffrey-epstein",r:"Hundreds of texts 2018-2019; filmed interview"},{t:"donald-trump",r:"Former chief strategist"},{t:"kathy-ruemmler",r:"Attended dinner together"},{t:"miroslav-lajcak",r:"Attended dinner together"}],inst:["White House (former)","Breitbart News","Goldman Sachs (former)"]},
 
 "rfk-jr":{n:"Robert F. Kennedy Jr.",b:"January 17, 1954",cat:"Political",
 sum:"HHS Secretary. Named in black book. Admitted flying on Epstein's plane twice (1993). Said it was before anyone knew about Epstein's crimes.",
@@ -366,12 +366,12 @@ sum:"NY Giants co-owner. Mentioned 400+ times in files. Epstein offered to conne
 con:[{t:"jeffrey-epstein",r:"400+ mentions in files; offered women"}],inst:["NY Giants (co-owner)","Escape Artists Productions"]},
 
 "howard-lutnick":{n:"Howard Lutnick",b:"July 14, 1961",cat:"Finance",
-sum:"Trump Commerce Secretary. Former Cantor Fitzgerald CEO. Family visited Epstein's island Dec 2012 with children. Signed business contract with Epstein (Adfin, 2012). Corresponded through intermediaries 2011-2012. Invited Epstein to Clinton fundraiser 2015. Claimed he cut ties in 2005 — files contradict.",
-con:[{t:"jeffrey-epstein",r:"Island visit 2012; business contract; correspondence"},{t:"bill-clinton",r:"Invited Epstein to Clinton fundraiser"}],inst:["Commerce Secretary","Cantor Fitzgerald"]},
+sum:"American businessman serving as Commerce Secretary under Trump. CEO of Cantor Fitzgerald, where he rebuilt the firm after losing 658 employees on 9/11. Net worth ~$2 billion. Epstein Connection: Family visited Little St. James Island December 2012 with children. Signed business contract with Epstein (Adfin Inc., 2012). Corresponded through intermediaries 2011-2012. Invited Epstein to Clinton fundraiser 2015. Claimed he cut ties in 2005 — DOJ files contradict this timeline.",
+con:[{t:"jeffrey-epstein",r:"Island visit 2012; business contract; correspondence"},{t:"bill-clinton",r:"Invited Epstein to Clinton fundraiser"},{t:"little-st-james",r:"Family visited island 2012"}],inst:["Commerce Secretary","Cantor Fitzgerald"]},
 
 "sergey-brin":{n:"Sergey Brin",b:"August 21, 1973",cat:"Tech",
-sum:"Google co-founder. Multiple messages with Maxwell. Offered to bring Eric Schmidt to Epstein dinner (2003). Accuser Sarah Ransome claims meeting on island with Brin and then-fiancee Anne Wojcicki.",
-con:[{t:"jeffrey-epstein",r:"Dinner meetings; island visits alleged"},{t:"ghislaine-maxwell",r:"Multiple messages"},{t:"eric-schmidt",r:"Offered to bring to Epstein"},{t:"anne-wojcicki",r:"Then-fiancee; island meeting alleged"},{t:"sarah-ransome",r:"Alleged meeting on island"}],inst:["Google (co-founder)","Alphabet"]},
+sum:"Russian-American computer scientist who co-founded Google with Larry Page in 1998. President of Alphabet Inc. Net worth ~$110 billion. Immigrated from Soviet Union as child. Stanford PhD dropout. Epstein Connection: Multiple messages with Ghislaine Maxwell. Offered to bring Eric Schmidt to Epstein dinner (2003). Accuser Sarah Ransome claims meeting on Little St. James Island with Brin and then-fiancée Anne Wojcicki.",
+con:[{t:"jeffrey-epstein",r:"Dinner meetings; island visits alleged"},{t:"ghislaine-maxwell",r:"Multiple messages"},{t:"eric-schmidt",r:"Offered to bring to Epstein"},{t:"anne-wojcicki",r:"Then-fiancée; island meeting alleged"},{t:"sarah-ransome",r:"Alleged meeting on island"},{t:"little-st-james",r:"Alleged visit"}],inst:["Google (co-founder)","Alphabet"]},
 
 "eric-schmidt":{n:"Eric Schmidt",b:"April 27, 1955",cat:"Tech",
 sum:"Former Google CEO. Brin offered to bring him to Epstein dinner.",
@@ -879,8 +879,8 @@ det:"Key Work:\n• 'Unshocked' series with Naomi Klein\n• 'Ask the Editor' li
 con:[{t:"jeffrey-epstein",r:"Persistent coverage"}]},
 
 "jd-vance":{n:"JD Vance",b:"August 2, 1984",cat:"Political",
-sum:"Vice President (2025-). Named in DOJ Section 3 Report (Feb 2026) list of government officials and politically exposed persons referenced in Epstein files.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Vice President","U.S. Senate (former)"]},
+sum:"American politician and author serving as Vice President (2025-). Yale Law graduate. Wrote bestselling memoir 'Hillbilly Elegy' (2016). Former venture capitalist at Mithril Capital (Peter Thiel's firm). Ohio Senator (2023-25). Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of government officials referenced in released files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"peter-thiel",r:"Worked at Thiel's Mithril Capital"}],inst:["Vice President","U.S. Senate (former)","Mithril Capital (former)"]},
 
 "jeff-zucker":{n:"Jeff Zucker",b:"April 9, 1965",cat:"Media",
 sum:"Former CNN president. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
@@ -963,8 +963,8 @@ sum:"Former National Security Advisor. Named in DOJ Section 3 Report (Feb 2026) 
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"NSA"}],inst:["National Security Advisor (former)","U.S. Army (Lt. Gen.)"]},
 
 "queen-elizabeth":{n:"Queen Elizabeth II",b:"April 21, 1926",d:"September 8, 2022",cat:"Royalty",
-sum:"Former Queen of the United Kingdom. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files. Mother of Prince Andrew.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"prince-andrew",r:"Mother"}],inst:["British Royal Family"]},
+sum:"Queen of the United Kingdom and Commonwealth realms from 1952 until her death in 2022. Longest-reigning British monarch (70 years). Mother of Prince Andrew, whose close friendship with Epstein led to his removal from royal duties. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026); referenced in context of Prince Andrew's involvement.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"prince-andrew",r:"Mother; stripped him of titles over Epstein"}],inst:["British Royal Family"]},
 
 "rahm-emanuel":{n:"Rahm Emanuel",b:"November 29, 1959",cat:"Political",
 sum:"U.S. Ambassador to Japan, former Chicago mayor. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
