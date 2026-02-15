@@ -299,5 +299,357 @@ con:[{t:"leslie-wexner",r:"Wife"}],inst:["Wexner Foundation"]},
 
 "brian-vickers":{n:"Brian Vickers",b:"October 24, 1983",cat:"Other",
 sum:"NASCAR driver. Married Sarah Kellen.",
-con:[{t:"sarah-kellen",r:"Husband"}]}
+con:[{t:"sarah-kellen",r:"Husband"}]},
+
+"steve-bannon":{n:"Steve Bannon",b:"November 27, 1953",cat:"Political",
+sum:"Trump's former chief strategist. Hundreds of texts with Epstein 2018-2019. Received Hermes Apple Watch gift. 2-hour filmed interview with Epstein. Discussed documentary to rehabilitate Epstein's reputation.",
+con:[{t:"jeffrey-epstein",r:"Hundreds of texts 2018-2019; filmed interview"},{t:"donald-trump",r:"Former chief strategist"},{t:"kathy-ruemmler",r:"Attended dinner together"}],inst:["White House (former)","Breitbart News"]},
+
+"rfk-jr":{n:"Robert F. Kennedy Jr.",b:"January 17, 1954",cat:"Political",
+sum:"HHS Secretary. Named in black book. Admitted flying on Epstein's plane twice (1993). Said it was before anyone knew about Epstein's crimes.",
+con:[{t:"jeffrey-epstein",r:"Flew on plane twice (1993)"}],inst:["HHS (Secretary)","Children's Health Defense"]},
+
+"mehmet-oz":{n:"Dr. Mehmet Oz",b:"June 11, 1960",cat:"Government",
+sum:"Head of CMS (Centers for Medicare/Medicaid). Epstein paid $1,592 for Oz's travel in 2004. Oz sent Epstein email in 2016 (redacted).",
+con:[{t:"jeffrey-epstein",r:"Travel paid by Epstein 2004; email 2016"}],inst:["CMS (Administrator)","Columbia University"]},
+
+"john-phelan":{n:"John Phelan",cat:"Government",
+sum:"Navy Secretary under Trump. On flight manifests from 2006 (NY to London and back) with Epstein and Jean-Luc Brunel. Was at MSD Capital (Michael Dell's firm) at time.",
+con:[{t:"jeffrey-epstein",r:"Flight logs 2006"},{t:"jean-luc-brunel",r:"On same flights"},{t:"michael-dell",r:"Worked at Dell's MSD Capital"}],inst:["U.S. Navy (Secretary)","MSD Capital"]},
+
+"kathy-ruemmler":{n:"Kathy Ruemmler",cat:"Government",
+sum:"Former Obama White House Counsel. Called Epstein 'Uncle Jeffrey.' Epstein booked first-class Europe trip for her. She said she 'adored' him. Asked Epstein's advice on draft public statements. One of three people Epstein called after 2019 arrest. Resigned Goldman Sachs Feb 2026.",
+con:[{t:"jeffrey-epstein",r:"Close relationship; called him 'Uncle Jeffrey'"},{t:"steve-bannon",r:"Attended dinner together"},{t:"woody-allen",r:"Arranged White House tour for him"}],inst:["White House Counsel (Obama)","Goldman Sachs (resigned 2026)","Latham & Watkins"]},
+
+"stacey-plaskett":{n:"Stacey Plaskett",b:"May 13, 1966",cat:"Political",
+sum:"USVI delegate to Congress. Text messages appeared to show Epstein communicating with her during 2019 Cohen hearing, possibly coaching her questions.",
+con:[{t:"jeffrey-epstein",r:"Text messages during Cohen hearing"}],inst:["U.S. House of Representatives"]},
+
+"john-de-jongh":{n:"John de Jongh Jr.",cat:"Political",
+sum:"Former USVI Governor (2007-2015). Epstein paid college tuition for his children.",
+con:[{t:"jeffrey-epstein",r:"Epstein paid children's tuition"}],inst:["Governor of USVI"]},
+
+"al-gore":{n:"Al Gore",b:"March 31, 1948",cat:"Political",
+sum:"Former Vice President. Named in unsealed court documents.",
+con:[{t:"jeffrey-epstein",r:"Named in court documents"}],inst:["Vice President (1993-2001)","The Climate Reality Project"]},
+
+"tony-blair":{n:"Tony Blair",b:"May 6, 1953",cat:"Political",
+sum:"Former UK Prime Minister. In Epstein's black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["UK Prime Minister (1997-2007)","Tony Blair Institute"]},
+
+"andrew-cuomo":{n:"Andrew Cuomo",b:"December 6, 1957",cat:"Political",
+sum:"Former NY Governor. In Epstein's black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Governor of NY (2011-2021)"]},
+
+"john-kerry":{n:"John Kerry",b:"December 11, 1943",cat:"Political",
+sum:"Former Secretary of State. In Epstein's black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Secretary of State (2013-2017)","U.S. Senate"]},
+
+"ted-kennedy":{n:"Ted Kennedy",b:"February 22, 1932",d:"August 25, 2009",cat:"Political",
+sum:"Late US Senator. In Epstein's black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["U.S. Senate (1962-2009)"]},
+
+"thorbjorn-jagland":{n:"Thorbjørn Jagland",b:"November 5, 1950",cat:"Political",
+sum:"Former PM of Norway. Subject of criminal investigation for corruption based on email exchanges with Epstein. Epstein used Jagland to try to arrange meeting with Putin.",
+con:[{t:"jeffrey-epstein",r:"Emails; arranged meetings"},{t:"vladimir-putin",r:"Epstein sought meeting through Jagland"}],inst:["PM of Norway","Nobel Committee (former chair)"]},
+
+"miroslav-lajcak":{n:"Miroslav Lajčák",b:"March 20, 1963",cat:"Political",
+sum:"Slovak national security adviser. Resigned Jan 31, 2026 after emails with Epstein surfaced. Former president of UN General Assembly. Attended dinner with Epstein, Bannon, and Ruemmler.",
+con:[{t:"jeffrey-epstein",r:"Emails; dinner meetings"},{t:"steve-bannon",r:"Attended dinner together"},{t:"kathy-ruemmler",r:"Attended dinner together"}],inst:["Slovakia NSA (resigned)","UN General Assembly (former president)"]},
+
+"mette-marit":{n:"Crown Princess Mette-Marit of Norway",b:"August 19, 1973",cat:"Royalty",
+sum:"Close association with Epstein 2011-2014. Met multiple times despite being told of his conviction.",
+con:[{t:"jeffrey-epstein",r:"Association 2011-2014"}],inst:["Norwegian Royal Family"]},
+
+"steve-tisch":{n:"Steve Tisch",b:"February 14, 1949",cat:"Finance",
+sum:"NY Giants co-owner. Mentioned 400+ times in files. Epstein offered to connect him with women, including 'Ukrainian girl' email.",
+con:[{t:"jeffrey-epstein",r:"400+ mentions in files; offered women"}],inst:["NY Giants (co-owner)","Escape Artists Productions"]},
+
+"howard-lutnick":{n:"Howard Lutnick",b:"July 14, 1961",cat:"Finance",
+sum:"Trump Commerce Secretary. Former Cantor Fitzgerald CEO. Family visited Epstein's island Dec 2012 with children. Signed business contract with Epstein (Adfin, 2012). Corresponded through intermediaries 2011-2012. Invited Epstein to Clinton fundraiser 2015. Claimed he cut ties in 2005 — files contradict.",
+con:[{t:"jeffrey-epstein",r:"Island visit 2012; business contract; correspondence"},{t:"bill-clinton",r:"Invited Epstein to Clinton fundraiser"}],inst:["Commerce Secretary","Cantor Fitzgerald"]},
+
+"sergey-brin":{n:"Sergey Brin",b:"August 21, 1973",cat:"Tech",
+sum:"Google co-founder. Multiple messages with Maxwell. Offered to bring Eric Schmidt to Epstein dinner (2003). Accuser Sarah Ransome claims meeting on island with Brin and then-fiancee Anne Wojcicki.",
+con:[{t:"jeffrey-epstein",r:"Dinner meetings; island visits alleged"},{t:"ghislaine-maxwell",r:"Multiple messages"},{t:"eric-schmidt",r:"Offered to bring to Epstein"},{t:"anne-wojcicki",r:"Then-fiancee; island meeting alleged"},{t:"sarah-ransome",r:"Alleged meeting on island"}],inst:["Google (co-founder)","Alphabet"]},
+
+"eric-schmidt":{n:"Eric Schmidt",b:"April 27, 1955",cat:"Tech",
+sum:"Former Google CEO. Brin offered to bring him to Epstein dinner.",
+con:[{t:"jeffrey-epstein",r:"Brin offered to bring to dinner"},{t:"sergey-brin",r:"Google colleagues"}],inst:["Google (former CEO)","Alphabet"]},
+
+"richard-branson":{n:"Richard Branson",b:"July 18, 1950",cat:"Finance",
+sum:"Virgin Group founder. Exchanged emails with Epstein. Told Epstein he'd be happy to meet 'as long as you bring your harem!' (2013). Counseled Epstein to get Bill Gates to vouch for him. Photographed with Epstein.",
+con:[{t:"jeffrey-epstein",r:"Emails; meetings; 'bring your harem' comment"},{t:"bill-gates",r:"Suggested Gates vouch for Epstein"}],inst:["Virgin Group"]},
+
+"michael-bloomberg":{n:"Michael Bloomberg",b:"February 14, 1942",cat:"Finance",
+sum:"Former NYC mayor and billionaire. In black book. His campaign said he 'had no relationship with Jeffrey Epstein.'",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Mayor of NYC (2002-2013)","Bloomberg LP"]},
+
+"rupert-murdoch":{n:"Rupert Murdoch",b:"March 11, 1931",cat:"Media",
+sum:"News Corp/Fox founder. In black book/contact book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["News Corp","Fox Corporation"]},
+
+"ron-burkle":{n:"Ron Burkle",b:"November 12, 1952",cat:"Finance",
+sum:"Supermarket/investment billionaire. In black book. Close to Bill Clinton.",
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"bill-clinton",r:"Close associate"}],inst:["Yucaipa Companies"]},
+
+"david-koch":{n:"David Koch",b:"May 3, 1940",d:"August 23, 2019",cat:"Finance",
+sum:"Industrialist and political donor. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Koch Industries"]},
+
+"mort-zuckerman":{n:"Mort Zuckerman",b:"June 4, 1937",cat:"Finance",
+sum:"Real estate and media billionaire. In black book. Owner of NY Daily News and former owner of US News.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Boston Properties","NY Daily News"]},
+
+"ariane-de-rothschild":{n:"Ariane de Rothschild",b:"1965",cat:"Finance",
+sum:"CEO of Edmond de Rothschild Group. Met Epstein multiple times in NY and Paris before 2019 arrest. Continued contact 2013-2019. Epstein's firm was to receive $25M for consulting with Rothschild Group. Barak helped arrange meetings.",
+con:[{t:"jeffrey-epstein",r:"Meetings NY/Paris; $25M consulting deal"},{t:"ehud-barak",r:"Barak arranged meetings"}],inst:["Edmond de Rothschild Group (CEO)"]},
+
+"evelyn-de-rothschild":{n:"Evelyn de Rothschild",b:"August 29, 1931",d:"November 7, 2022",cat:"Finance",
+sum:"British financier and Rothschild heir. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["N M Rothschild & Sons"]},
+
+"sultan-bin-sulayem":{n:"Sultan Ahmed bin Sulayem",b:"1955",cat:"Finance",
+sum:"DP World chair. Emails with Epstein included references to sexual experiences. Departed from DP World Feb 2026. Introduced Anil Ambani to Epstein.",
+con:[{t:"jeffrey-epstein",r:"Emails referencing sexual experiences"},{t:"anil-ambani",r:"Introduced to Epstein"}],inst:["DP World (former)"]},
+
+"anil-ambani":{n:"Anil Ambani",b:"June 4, 1959",cat:"Finance",
+sum:"Indian businessman, Reliance Group. Exchanged emails 2017-2019. Sought to engage with White House on India-US relations through Epstein.",
+con:[{t:"jeffrey-epstein",r:"Emails 2017-2019; sought White House access"},{t:"sultan-bin-sulayem",r:"Introduced by Sulayem"}],inst:["Reliance Group"]},
+
+"harvey-weinstein":{n:"Harvey Weinstein",b:"March 19, 1952",cat:"Entertainment",
+sum:"Film producer (convicted of sexual assault). Crossed paths with Epstein; both tried to buy NY Magazine 2003.",
+con:[{t:"jeffrey-epstein",r:"Both tried to buy NY Magazine"}],inst:["Miramax (former)","The Weinstein Company (former)"]},
+
+"casey-wasserman":{n:"Casey Wasserman",b:"November 3, 1974",cat:"Entertainment",
+sum:"Talent agency founder (Wasserman Media Group). Epstein network ties led to client exodus. Reportedly putting firm up for sale.",
+con:[{t:"jeffrey-epstein",r:"Network connections"}],inst:["Wasserman Media Group"]},
+
+"les-moonves":{n:"Les Moonves",b:"October 6, 1949",cat:"Media",
+sum:"Former CBS executive. In black book. Epstein monitored his #MeToo downfall. Later fired from CBS over sexual misconduct allegations.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["CBS (former CEO)"]},
+
+"charlie-rose":{n:"Charlie Rose",b:"January 5, 1942",cat:"Media",
+sum:"Former PBS host. Epstein recommended women as his assistants; Rose hired three. Rose later accused of sexual misconduct.",
+con:[{t:"jeffrey-epstein",r:"Hired Epstein-recommended assistants"}],inst:["PBS","CBS News","Bloomberg TV"]},
+
+"joshua-ramo":{n:"Joshua Cooper Ramo",b:"1968",cat:"Finance",
+sum:"Co-CEO of Kissinger Associates. 12+ meetings with Epstein 2013-2017 at townhouse. Breakfast with Barak.",
+con:[{t:"jeffrey-epstein",r:"12+ meetings 2013-2017"},{t:"ehud-barak",r:"Breakfast meeting"}],inst:["Kissinger Associates"]},
+
+"michael-dell":{n:"Michael Dell",b:"February 23, 1965",cat:"Finance",
+sum:"Billionaire founder of Dell Technologies. In contacts. John Phelan worked at his firm MSD Capital.",
+con:[{t:"jeffrey-epstein",r:"In contacts"},{t:"john-phelan",r:"Phelan worked at MSD Capital"}],inst:["Dell Technologies","MSD Capital"]},
+
+"terje-rod-larsen":{n:"Terje Rød-Larsen",b:"November 22, 1947",cat:"Political",
+sum:"Norwegian diplomat. Called Epstein 'my best friend' and 'a thoroughly good human being.' Each of his children listed for $5M in Epstein's will. Introduced Epstein to Jean Todt.",
+con:[{t:"jeffrey-epstein",r:"Called him 'best friend'; children in will"},{t:"jean-todt",r:"Introduced to Epstein"}],inst:["UN","International Peace Institute"]},
+
+"brad-karp":{n:"Brad Karp",b:"1959",cat:"Legal",
+sum:"Paul Weiss managing director. Called Epstein 'amazing.' Stepped down after revolt by peers following Epstein revelations.",
+con:[{t:"jeffrey-epstein",r:"Called him 'amazing'"}],inst:["Paul Weiss (stepped down)"]},
+
+"michael-jackson":{n:"Michael Jackson",b:"August 29, 1958",d:"June 25, 2009",cat:"Entertainment",
+sum:"Musician. Named in black book. Photographed with Epstein and Bill Clinton.",
+con:[{t:"jeffrey-epstein",r:"In black book; photographed together"},{t:"bill-clinton",r:"Photographed together"}]},
+
+"mick-jagger":{n:"Mick Jagger",b:"July 26, 1943",cat:"Entertainment",
+sum:"Musician (Rolling Stones). In contact book. Photographed in files.",
+con:[{t:"jeffrey-epstein",r:"In contact book; photographed"}]},
+
+"phil-collins":{n:"Phil Collins",b:"January 30, 1951",cat:"Entertainment",
+sum:"Musician. In contact book.",
+con:[{t:"jeffrey-epstein",r:"In contact book"}]},
+
+"diana-ross":{n:"Diana Ross",b:"March 26, 1944",cat:"Entertainment",
+sum:"Singer. Photographed with Clinton and Jackson in files.",
+con:[{t:"jeffrey-epstein",r:"In files"},{t:"bill-clinton",r:"Photographed together"},{t:"michael-jackson",r:"Photographed together"}]},
+
+"courtney-love":{n:"Courtney Love",b:"July 9, 1964",cat:"Entertainment",
+sum:"Musician. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}]},
+
+"jimmy-buffett":{n:"Jimmy Buffett",b:"December 25, 1946",d:"September 1, 2023",cat:"Entertainment",
+sum:"Musician. In contact book.",
+con:[{t:"jeffrey-epstein",r:"In contact book"}]},
+
+"alec-baldwin":{n:"Alec Baldwin",b:"April 3, 1958",cat:"Entertainment",
+sum:"Actor. In black book/contact book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}]},
+
+"minnie-driver":{n:"Minnie Driver",b:"January 31, 1970",cat:"Entertainment",
+sum:"Actress. In contact book.",
+con:[{t:"jeffrey-epstein",r:"In contact book"}]},
+
+"liz-hurley":{n:"Liz Hurley",b:"June 10, 1965",cat:"Entertainment",
+sum:"Actress/model. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}]},
+
+"dustin-hoffman":{n:"Dustin Hoffman",b:"August 8, 1937",cat:"Entertainment",
+sum:"Actor. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}]},
+
+"ralph-fiennes":{n:"Ralph Fiennes",b:"December 22, 1962",cat:"Entertainment",
+sum:"Actor. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}]},
+
+"bruce-willis":{n:"Bruce Willis",b:"March 19, 1955",cat:"Entertainment",
+sum:"Actor. In contact book.",
+con:[{t:"jeffrey-epstein",r:"In contact book"}]},
+
+"george-lucas":{n:"George Lucas",b:"May 14, 1944",cat:"Entertainment",
+sum:"Star Wars creator. Named in flight logs as passenger on Epstein's aircraft.",
+con:[{t:"jeffrey-epstein",r:"Flight logs"}],inst:["Lucasfilm"]},
+
+"tom-ford":{n:"Tom Ford",b:"August 27, 1961",cat:"Entertainment",
+sum:"Designer and filmmaker. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}]},
+
+"brett-ratner":{n:"Brett Ratner",b:"March 28, 1969",cat:"Entertainment",
+sum:"Film director. Photographed with Epstein and Brunel. Directed 'Melania' documentary. Previously accused of sexual misconduct.",
+con:[{t:"jeffrey-epstein",r:"Photographed together"},{t:"jean-luc-brunel",r:"Photographed together"}]},
+
+"bill-cosby":{n:"Bill Cosby",b:"July 12, 1937",cat:"Entertainment",
+sum:"Comedian (convicted of sexual assault). In black book. Was Epstein's neighbor in Manhattan.",
+con:[{t:"jeffrey-epstein",r:"In black book; neighbor"}]},
+
+"janice-dickinson":{n:"Janice Dickinson",b:"February 16, 1955",cat:"Entertainment",
+sum:"Model. In contact book.",
+con:[{t:"jeffrey-epstein",r:"In contact book"}]},
+
+"chris-evans-uk":{n:"Chris Evans",b:"April 1, 1966",cat:"Entertainment",
+sum:"UK TV presenter. In contact book.",
+con:[{t:"jeffrey-epstein",r:"In contact book"}]},
+
+"george-church":{n:"George Church",b:"August 28, 1954",cat:"Academia",
+sum:"Harvard geneticist. Proposed 'pleasure genome initiative' with Epstein funding.",
+con:[{t:"jeffrey-epstein",r:"Proposed Epstein-funded research"}],inst:["Harvard University","MIT"]},
+
+"stephen-kosslyn":{n:"Stephen Kosslyn",b:"1948",cat:"Academia",
+sum:"Psychologist. Proposed Epstein-funded neuroscience projects. Former Harvard dean.",
+con:[{t:"jeffrey-epstein",r:"Proposed Epstein-funded projects"}],inst:["Harvard (former)","Minerva Schools"]},
+
+"howard-gardner":{n:"Howard Gardner",b:"July 11, 1943",cat:"Academia",
+sum:"Developmental psychologist known for multiple intelligences theory. Said he 'never had the slightest knowledge' of Epstein's crimes.",
+con:[{t:"jeffrey-epstein",r:"In Epstein's circle"}],inst:["Harvard University"]},
+
+"leo-botstein":{n:"Leo Botstein",b:"December 14, 1946",cat:"Academia",
+sum:"Bard College president. Epstein used connection to get Woody Allen's daughter admitted to Bard.",
+con:[{t:"jeffrey-epstein",r:"Used for college admission"},{t:"woody-allen",r:"Got daughter admitted"}],inst:["Bard College"]},
+
+"john-brockman":{n:"John Brockman",b:"February 16, 1941",cat:"Social",
+sum:"Literary agent. Organized intellectual salons funded by Epstein post-conviction, connecting him to academics and tech executives.",
+con:[{t:"jeffrey-epstein",r:"Organized Epstein-funded salons"},{t:"reid-hoffman",r:"Connected through salons"},{t:"joi-ito",r:"Connected through salons"}],inst:["Edge Foundation","Brockman Inc"]},
+
+"dean-kamen":{n:"Dean Kamen",b:"April 5, 1951",cat:"Tech",
+sum:"Inventor (Segway, insulin pump). Photographed with Epstein and Branson.",
+con:[{t:"jeffrey-epstein",r:"Photographed together"},{t:"richard-branson",r:"Photographed together"}],inst:["DEKA Research"]},
+
+"christopher-poole":{n:"Christopher Poole",b:"1988",cat:"Tech",
+sum:"4chan founder (moot). Notes from meeting with Epstein in files.",
+con:[{t:"jeffrey-epstein",r:"Meeting notes in files"}],inst:["4chan (founder)","Google"]},
+
+"merrie-spaeth":{n:"Merrie Spaeth",cat:"Media",
+sum:"Reagan-era crisis strategist. Coached Epstein on communication, prepared draft apology letters (2008).",
+con:[{t:"jeffrey-epstein",r:"Crisis PR; drafted apology letters"}],inst:["Spaeth Communications","Reagan administration"]},
+
+"michael-wolff":{n:"Michael Wolff",b:"August 27, 1953",cat:"Media",
+sum:"Journalist and author ('Fire and Fury'). Met Epstein ~2001. Advised on press strategy. Epstein emailed him about #MeToo.",
+con:[{t:"jeffrey-epstein",r:"Met 2001; advised on press strategy"}]},
+
+"landon-thomas":{n:"Landon Thomas Jr.",cat:"Media",
+sum:"NYT journalist. Corresponded with Epstein. Left NYT after relationship was revealed.",
+con:[{t:"jeffrey-epstein",r:"Correspondence"}],inst:["New York Times (former)"]},
+
+"peter-listerman":{n:"Peter Listerman",b:"1963",cat:"Operations",
+sum:"Model scout. Listed in FBI inner circle diagram as 'subject/witness.'",
+con:[{t:"jeffrey-epstein",r:"FBI inner circle diagram"}]},
+
+"juan-alessi":{n:"Juan Alessi",cat:"Operations",
+sum:"Epstein's Palm Beach housekeeper. Testified about Dershowitz visits and daily operations. Key trial witness.",
+con:[{t:"jeffrey-epstein",r:"Housekeeper; testified"},{t:"alan-dershowitz",r:"Testified about visits"}]},
+
+"john-casablancas":{n:"John Casablancas",b:"December 12, 1942",d:"July 20, 2013",cat:"Entertainment",
+sum:"Founder of Elite Model Management. Connected to Epstein; allegedly sent 15-year-old model to Epstein in 1990.",
+con:[{t:"jeffrey-epstein",r:"Connected; allegedly sent underage model"},{t:"jean-luc-brunel",r:"Modeling industry connections"}],inst:["Elite Model Management"]},
+
+"sarah-ransome":{n:"Sarah Ransome",cat:"Victim/Accuser",
+sum:"Epstein accuser. Claims meeting Sergey Brin and Anne Wojcicki on island. Has been vocal advocate for survivors.",
+con:[{t:"jeffrey-epstein",r:"Accuser"},{t:"sergey-brin",r:"Alleged meeting on island"},{t:"anne-wojcicki",r:"Alleged meeting on island"}]},
+
+"johanna-sjoberg":{n:"Johanna Sjoberg",cat:"Victim/Accuser",
+sum:"Epstein accuser. Said Prince Andrew touched her breast at townhouse while posing for photo. Recruited by Maxwell.",
+con:[{t:"jeffrey-epstein",r:"Accuser"},{t:"ghislaine-maxwell",r:"Recruited by Maxwell"},{t:"prince-andrew",r:"Alleged inappropriate touching"}]},
+
+"maria-farmer":{n:"Maria Farmer",cat:"Victim/Accuser",
+sum:"Earliest known complainant (1996). Filed complaint with FBI about child sex abuse. FBI failed to investigate. Said she felt 'redeemed' by files release.",
+con:[{t:"jeffrey-epstein",r:"1996 complainant"},{t:"ghislaine-maxwell",r:"Named in complaint"},{t:"annie-farmer",r:"Sister"}]},
+
+"annie-farmer":{n:"Annie Farmer",cat:"Victim/Accuser",
+sum:"Testified against Epstein and Maxwell at trial. Criticized redaction issues in DOJ releases. Sister of Maria Farmer.",
+con:[{t:"jeffrey-epstein",r:"Testified at trial"},{t:"ghislaine-maxwell",r:"Testified against"},{t:"maria-farmer",r:"Sister"}]},
+
+"adnan-khashoggi":{n:"Adnan Khashoggi",b:"July 25, 1935",d:"June 6, 2017",cat:"Finance",
+sum:"Saudi arms dealer. In black book. One of the wealthiest men of his era.",
+con:[{t:"jeffrey-epstein",r:"In black book"}]},
+
+"mbs":{n:"Mohammed bin Salman",b:"August 31, 1985",cat:"Royalty",
+sum:"Saudi Crown Prince. Listed in Epstein's black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Saudi Arabia (Crown Prince)"]},
+
+"vladimir-putin":{n:"Vladimir Putin",b:"October 7, 1952",cat:"Political",
+sum:"Russian President. Epstein sought meetings with Putin for years (2011, 2014) via Jagland and Barak. Used Russian contacts. Kremlin denied claims Epstein was Russian intelligence asset.",
+con:[{t:"jeffrey-epstein",r:"Epstein sought meetings"},{t:"thorbjorn-jagland",r:"Used to seek Putin access"},{t:"ehud-barak",r:"Used to seek Putin access"}],inst:["President of Russia"]},
+
+"jean-todt":{n:"Jean Todt",b:"February 25, 1946",cat:"Other",
+sum:"Former FIA president (Formula 1). Introduced to Epstein by Terje Rød-Larsen.",
+con:[{t:"jeffrey-epstein",r:"Introduced by Rød-Larsen"},{t:"terje-rod-larsen",r:"Made introduction"}],inst:["FIA (former president)","Ferrari (former)"]},
+
+"ivana-trump":{n:"Ivana Trump",b:"February 20, 1949",d:"July 14, 2022",cat:"Social",
+sum:"First wife of Donald Trump. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"donald-trump",r:"First wife"}]},
+
+"ivanka-trump":{n:"Ivanka Trump",b:"October 30, 1981",cat:"Social",
+sum:"Donald Trump's daughter. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"donald-trump",r:"Daughter"}]},
+
+"chelsea-clinton":{n:"Chelsea Clinton",b:"February 27, 1980",cat:"Social",
+sum:"Bill Clinton's daughter. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"bill-clinton",r:"Daughter"}],inst:["Clinton Foundation"]},
+
+"anderson-cooper":{n:"Anderson Cooper",b:"June 3, 1967",cat:"Media",
+sum:"CNN anchor. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["CNN"]},
+
+"anne-wojcicki":{n:"Anne Wojcicki",b:"July 28, 1973",cat:"Tech",
+sum:"23andMe founder. Accuser Sarah Ransome claimed meeting her on island with then-fiancee Sergey Brin.",
+con:[{t:"jeffrey-epstein",r:"Alleged island meeting"},{t:"sergey-brin",r:"Then-fiancee"},{t:"sarah-ransome",r:"Ransome alleged meeting"}],inst:["23andMe"]},
+
+"morgan-mcsweeney":{n:"Morgan McSweeney",b:"1977",cat:"Political",
+sum:"UK PM Starmer's chief of staff. Resigned over role in Mandelson appointment after Epstein revelations.",
+con:[{t:"jeffrey-epstein",r:"Epstein revelations led to resignation"},{t:"peter-mandelson",r:"Mandelson appointment"}],inst:["UK Government (resigned)"]},
+
+"larry-gagosian":{n:"Larry Gagosian",b:"April 19, 1945",cat:"Social",
+sum:"Art dealer. In black book. Runs major international gallery network.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Gagosian Gallery"]},
+
+"david-geffen":{n:"David Geffen",b:"February 21, 1943",cat:"Entertainment",
+sum:"Music and film mogul. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["DreamWorks (co-founder)","Geffen Records"]},
+
+"edgar-bronfman":{n:"Edgar Bronfman Sr.",b:"June 20, 1929",d:"December 21, 2013",cat:"Finance",
+sum:"Seagram heir and World Jewish Congress president. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["Seagram","World Jewish Congress"]},
+
+"barbara-walters":{n:"Barbara Walters",b:"September 25, 1929",d:"December 30, 2022",cat:"Media",
+sum:"Legendary TV journalist. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"}],inst:["ABC News","The View"]},
+
+"katie-couric":{n:"Katie Couric",b:"January 7, 1957",cat:"Media",
+sum:"TV journalist. Attended dinner at Epstein's mansion with other guests.",
+con:[{t:"jeffrey-epstein",r:"Attended dinner"}],inst:["NBC","CBS","ABC"]},
+
+"wendi-deng":{n:"Wendi Deng",b:"December 8, 1968",cat:"Social",
+sum:"Businesswoman. Former wife of Rupert Murdoch. In black book.",
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"rupert-murdoch",r:"Former wife"}]}
 };
