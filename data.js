@@ -758,5 +758,73 @@ con:[{t:"jeffrey-epstein",r:"Board member"},{t:"leslie-wexner",r:"Founder"},{t:"
 
 "mcc-manhattan":{n:"Metropolitan Correctional Center",cat:"Institution",
 sum:"Federal jail where Epstein held after July 2019 arrest. Found dead August 10, 2019. Circumstances disputed: broken cameras, sleeping guards, removal from suicide watch. Medical examiner ruled suicide. MCC closed permanently 2021.",
-con:[{t:"jeffrey-epstein",r:"Died here August 10, 2019"}]}
+con:[{t:"jeffrey-epstein",r:"Died here August 10, 2019"}]},
+
+"michael-milken":{n:"Michael Milken",b:"July 4, 1946",cat:"Finance",
+sum:"'Junk bond king.' Convicted of securities fraud 1990, served 2 years. Lifetime securities ban. Pardoned by Trump Feb 2020. Mentored Leon Black at Drexel → Black founded Apollo → Black paid Epstein $158M. Spotted with Black at Trump 2025 inauguration. Net worth ~$6B.",
+con:[{t:"jeffrey-epstein",r:"Connected through Leon Black"},{t:"leon-black",r:"Mentored at Drexel"},{t:"donald-trump",r:"Pardoned 2020"}],inst:["Drexel Burnham Lambert","Milken Institute"]},
+
+"elaine-chao":{n:"Elaine Chao",b:"March 26, 1953",cat:"Government",
+sum:"Transportation Secretary under Trump (2017-2021), Labor Secretary under Bush. Wife of Mitch McConnell. Named as supporter of Milken's pardon. Sits on LA28 Olympics board.",
+con:[{t:"michael-milken",r:"Supported pardon"},{t:"donald-trump",r:"Cabinet member"}],inst:["U.S. Transportation (Secretary)","U.S. Labor (Secretary)"]},
+
+"jeffrey-katzenberg":{n:"Jeffrey Katzenberg",b:"December 21, 1950",cat:"Entertainment",
+sum:"Former DreamWorks co-founder, former Disney Studios chair. Major Democratic fundraiser. Sits on LA28 Olympics board. Was Casey Wasserman's most vocal defender during Epstein controversy. No direct Epstein ties documented.",
+con:[{t:"casey-wasserman",r:"Defended during Epstein controversy"}],inst:["DreamWorks (co-founder)","Disney (former)","LA28"]},
+
+"conrad-black":{n:"Conrad Black",b:"August 25, 1944",cat:"Media",
+sum:"Former media baron (Hollinger, Daily Telegraph). In Epstein's black book. Convicted of fraud 2007, served 3+ years. Pardoned by Trump May 2019. Pattern of Trump pardoning figures in Epstein's network.",
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"donald-trump",r:"Pardoned 2019"}],inst:["Hollinger International","Daily Telegraph"]},
+
+"cameron-diaz":{n:"Cameron Diaz",b:"August 30, 1972",cat:"Entertainment",
+sum:"Actress. Referenced by name-dropping in depositions. Her representatives denied any association with Epstein.",
+con:[{t:"jeffrey-epstein",r:"Name-dropped in depositions; denied association"}]},
+
+"murray-gell-mann":{n:"Murray Gell-Mann",b:"September 15, 1929",d:"May 24, 2019",cat:"Academia",
+sum:"Nobel Prize-winning physicist, co-founder of Santa Fe Institute. Close relationship with Epstein. Epstein bought NM ranch partly to be near SFI scientists. Visited Zorro Ranch with SFI president and Maxwell.",
+con:[{t:"jeffrey-epstein",r:"Close relationship"},{t:"ghislaine-maxwell",r:"Visited ranch together"}],inst:["Santa Fe Institute","Caltech"]},
+
+"maria-bartiromo":{n:"Maria Bartiromo",b:"September 11, 1967",cat:"Media",
+sum:"Fox Business anchor. In Epstein's black book. Her platform is owned by Rupert Murdoch (also in black book).",
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"rupert-murdoch",r:"Works for his network"}],inst:["Fox Business"]},
+
+"drexel-burnham":{n:"Drexel Burnham Lambert",cat:"Institution",
+sum:"Investment bank (collapsed 1990). Home of Michael Milken's junk bond operation. Leon Black, Marc Rowan, and Josh Harris all worked there before founding Apollo. 'Predator's Ball' parties paralleled Epstein's later operations.",
+con:[{t:"michael-milken",r:"Head of high-yield"},{t:"leon-black",r:"Worked here"},{t:"marc-rowan",r:"Worked here"},{t:"josh-harris",r:"Worked here"}]},
+
+"milken-institute":{n:"Milken Institute",cat:"Institution",
+sum:"Nonprofit think tank founded 1991 by Michael Milken after prison as part of his rehabilitation — the same 'philanthropy after conviction' model Epstein later attempted.",
+con:[{t:"michael-milken",r:"Founder"}]},
+
+"edge-foundation":{n:"Edge Foundation",cat:"Institution",
+sum:"Intellectual salon/website founded by John Brockman. Connected Epstein to scientists, tech executives, and intellectuals post-conviction through dinners and events.",
+con:[{t:"john-brockman",r:"Founder"},{t:"jeffrey-epstein",r:"Attended events"}]},
+
+"elite-model-mgmt":{n:"Elite Model Management",cat:"Institution",
+sum:"Major modeling agency founded by John Casablancas. Connected to Epstein network. Casablancas allegedly sent 15-year-old model to Epstein in 1990.",
+con:[{t:"john-casablancas",r:"Founder"},{t:"jeffrey-epstein",r:"Received models from agency"}]},
+
+"latham-watkins":{n:"Latham & Watkins",cat:"Institution",
+sum:"Major law firm. Kathy Ruemmler was partner before Goldman Sachs. Epstein asked her to represent clients while she was there.",
+con:[{t:"kathy-ruemmler",r:"Former partner"}]},
+
+"kissinger-associates":{n:"Kissinger Associates",cat:"Institution",
+sum:"Consulting firm. Joshua Cooper Ramo is co-CEO. Ramo had 12+ meetings with Epstein 2013-2017 at townhouse.",
+con:[{t:"joshua-ramo",r:"Co-CEO"},{t:"jeffrey-epstein",r:"Connected through Ramo"}]},
+
+"la28":{n:"LA28 (2028 Los Angeles Olympics)",cat:"Institution",
+sum:"2028 Los Angeles Olympics organizing committee. Chair Casey Wasserman faced scrutiny over Epstein files. Board includes Jeffrey Katzenberg, Elaine Chao. O'Melveny & Myers reviewed Wasserman's Epstein interactions.",
+con:[{t:"casey-wasserman",r:"Chairman"},{t:"jeffrey-katzenberg",r:"Board member"},{t:"elaine-chao",r:"Board member"}]},
+
+"usvi-government":{n:"USVI Government",cat:"Institution",
+sum:"Government of US Virgin Islands where Epstein was based. Governor de Jongh received tuition payments from Epstein. USVI AG sued Epstein's estate and banks. Received $75M from JPMorgan and $62.5M from Leon Black.",
+con:[{t:"jeffrey-epstein",r:"Based here"},{t:"john-de-jongh",r:"Governor received payments"},{t:"stacey-plaskett",r:"Delegate"}]},
+
+"teneo":{n:"Teneo Holdings",cat:"Institution",
+sum:"Consulting firm co-founded by Doug Band (Clinton's aide). Band managed the Clinton-Epstein relationship. Connects Clinton's post-presidential activities to Epstein circles.",
+con:[{t:"doug-band",r:"Co-founder"},{t:"bill-clinton",r:"Connected through Band"}]},
+
+"epstein-victims-fund":{n:"Epstein Victims' Compensation Fund",cat:"Institution",
+sum:"Fund established to compensate Epstein's victims. Received proceeds from property sales including $51M from Manhattan townhouse. Administered by Kenneth Feinberg. Over $120M distributed to 150+ victims.",
+con:[{t:"jeffrey-epstein",r:"Estate funded it"}]}
 };
