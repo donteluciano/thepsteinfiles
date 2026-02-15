@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Epstein Files — Network Encyclopedia</title>
+<link href="https://fonts.googleapis.com/css2?family=Linux+Libertine:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--bg2:#f6f6f6;--bd:#a2a9b1;--bdl:#c8ccd1;--bde:#eaecf0;--tx:#202122;--tx2:#54595d;--txm:#72777d;--lk:#0645ad;--sf:'Linux Libertine','Georgia',serif;--ss:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Helvetica','Arial',sans-serif}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--ss);font-size:14px;line-height:1.6;color:var(--tx);background:var(--bg)}
+a{color:var(--lk);text-decoration:none}a:hover{text-decoration:underline}
+::-webkit-scrollbar{width:8px}::-webkit-scrollbar-thumb{background:#c8ccd1;border-radius:4px}
+
+.rbar{background:#f8f9fa;border-bottom:1px solid var(--bde);font-size:12.5px}
+.rbar-in{max-width:1200px;margin:0 auto;padding:6px 20px;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.rbar a{color:var(--tx2);padding:4px 10px;border-radius:3px;white-space:nowrap}
+.rbar a:hover{background:#eaecf0;text-decoration:none;color:var(--tx)}
+.rbar a.act{color:var(--tx);font-weight:600;background:#eaecf0}
+.rbar-s{color:var(--bdl);margin:0 4px}
+
+.hdr{border-bottom:1px solid var(--bde)}
+.hdr-in{max-width:1200px;margin:0 auto;padding:8px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:12px;cursor:pointer;text-decoration:none!important}
+.logo svg{width:46px;height:46px}
+.logo-t{display:flex;flex-direction:column}
+.logo-t1{font-family:var(--sf);font-size:19px;color:var(--tx);line-height:1.2}
+.logo-t2{font-size:11px;color:var(--txm)}
+
+.srch{position:relative}
+.srch input{width:280px;padding:6px 34px 6px 10px;font-size:13px;border:1px solid var(--bd);border-radius:2px;outline:none;font-family:var(--ss)}
+.srch input:focus{border-color:#36c;box-shadow:inset 0 0 0 1px #36c}
+.srch-b{position:absolute;right:1px;top:1px;bottom:1px;width:30px;background:var(--bg2);border:none;border-left:1px solid var(--bd);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--txm);border-radius:0 2px 2px 0}
+.srch-b:hover{background:#eaecf0}
+.sdd{position:absolute;top:calc(100% + 2px);right:0;width:400px;max-height:480px;overflow-y:auto;background:#fff;border:1px solid var(--bd);box-shadow:0 2px 6px rgba(0,0,0,.12);z-index:500;display:none}
+.sdd.open{display:block}
+.sdd-i{padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--bde)}
+.sdd-i:hover{background:#e8f0fe}.sdd-i:last-child{border-bottom:none}
+.sdd-n{font-size:14px;font-weight:500;color:var(--lk)}.sdd-c{font-size:11.5px;color:var(--txm)}.sdd-s{font-size:12px;color:var(--tx2);margin-top:2px}
+
+.tabs{background:#fff;border-bottom:1px solid var(--bd)}
+.tabs-in{max-width:1200px;margin:0 auto;padding:0 20px;display:flex}
+.tab{padding:8px 14px;font-size:12.5px;color:var(--tx2);cursor:default;border-bottom:2px solid transparent}
+.tab.act{color:var(--tx);border-bottom-color:var(--tx);font-weight:500}
+
+.mc{max-width:1200px;margin:0 auto;display:flex;min-height:calc(100vh - 160px)}
+.sb{width:200px;flex-shrink:0;border-right:1px solid var(--bde);padding:12px 12px 24px 20px;font-size:12.5px;overflow-y:auto;max-height:calc(100vh - 120px);position:sticky;top:0}
+.sb-sec{margin-bottom:16px}.sb-t{font-weight:700;padding:4px 0;margin-bottom:2px;font-size:12px}
+.sb-l{display:block;padding:2px 0;color:var(--lk);font-size:12.5px;line-height:1.5;cursor:pointer}
+.sb-l:hover{text-decoration:underline}
+.wc{flex:1;padding:16px 20px 40px;min-width:0;overflow-wrap:break-word}
+
+/* HOME */
+.hw{border:1px solid #a7d7f9;background:#f5faff;padding:20px 24px;margin-bottom:20px;text-align:center}
+.hw h1{font-family:var(--sf);font-size:26px;font-weight:400;margin-bottom:4px}
+.hw p{font-size:13.5px;color:var(--tx2);max-width:600px;margin:0 auto}.hw b{color:var(--tx)}
+.hsb{text-align:center;margin:20px 0 28px}
+.hsb input{width:400px;max-width:90%;padding:8px 14px;font-size:15px;border:2px solid var(--bd);border-radius:3px;outline:none;font-family:var(--ss)}
+.hsb input:focus{border-color:#36c}
+.hsb button{padding:8px 18px;font-size:14px;margin-left:6px;background:#f8f9fa;border:1px solid var(--bd);border-radius:3px;cursor:pointer;font-family:var(--ss)}
+.hsb button:hover{background:#eaecf0}
+.hcol{display:flex;gap:16px;margin-bottom:16px}.hcol>div{flex:1;min-width:0}
+.hb{border:1px solid var(--bdl);margin-bottom:16px}
+.hb-h{padding:6px 12px;font-family:var(--sf);font-size:15px;border-bottom:1px solid var(--bdl)}
+.hb-h.grn{background:#cef2e0}.hb-h.blu{background:#cedff2}.hb-h.pur{background:#e0d4f5}
+.hb-h.yel{background:#fef6e0}.hb-h.red{background:#f2dbdb}.hb-h.gry{background:#eaecf0}
+.hb-b{padding:10px 14px;font-size:13px;line-height:1.65}
+.hb-b ul{margin:4px 0;padding-left:20px}.hb-b li{margin-bottom:3px}
+
+/* ARTICLE */
+.at-h{border-bottom:1px solid var(--bd);margin-bottom:16px}
+.at-h h1{font-family:var(--sf);font-size:28px;font-weight:400;line-height:1.25;margin-bottom:4px}
+.ab{font-size:14px;line-height:1.65}.ab p{margin-bottom:12px}
+.ab h2{font-family:var(--sf);font-size:22px;font-weight:400;border-bottom:1px solid var(--bd);padding-bottom:2px;margin:24px 0 10px}
+.ib{float:right;clear:right;width:280px;margin:0 0 16px 20px;border:1px solid var(--bdl);font-size:12.5px;background:#f8f9fa}
+.ib-h{background:#cce;padding:8px 10px;text-align:center;font-family:var(--sf);font-size:16px;border-bottom:1px solid var(--bdl)}
+.ib-r{display:flex;border-bottom:1px solid var(--bde)}
+.ib-l{width:90px;flex-shrink:0;padding:4px 8px;font-weight:700;background:#f0f0f0;font-size:12px;color:var(--tx2)}
+.ib-v{flex:1;padding:4px 8px}.ib-s{background:#e8e8e8;padding:4px 8px;font-weight:700;font-size:12px;text-align:center;border-bottom:1px solid var(--bde)}
+.toc{border:1px solid var(--bdl);background:#f8f9fa;padding:10px 14px;display:inline-block;margin:0 0 16px;font-size:13px;min-width:200px}
+.toc-t{font-weight:700;text-align:center;margin-bottom:6px}.toc ol{padding-left:20px;margin:0}.toc li{margin-bottom:2px}
+.ctl{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:13px}
+.ctl th{text-align:left;padding:6px 10px;background:#eaecf0;border:1px solid var(--bdl);font-weight:700;font-size:12.5px}
+.ctl td{padding:5px 10px;border:1px solid var(--bde);vertical-align:top}.ctl tr:hover td{background:#f8f9fa}
+.rbl{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.rb{font-size:12.5px;color:var(--lk);cursor:pointer;padding:2px 6px;border:1px solid var(--bde);border-radius:2px;background:#f8f9fa}
+.rb:hover{background:#eaecf0;text-decoration:underline}
+.acat{margin-top:24px;padding:8px 12px;border:1px solid var(--bde);background:#f8f9fa;font-size:12.5px}
+.cf::after{content:'';display:table;clear:both}
+.ft{border-top:1px solid var(--bde);padding:16px 20px;font-size:12px;color:var(--txm);text-align:center;max-width:1200px;margin:0 auto}
+
+@media(max-width:800px){.sb{display:none}.hcol{flex-direction:column}.ib{float:none;width:100%;margin:0 0 16px}.srch input{width:180px}.sdd{width:calc(100vw - 20px);right:-10px}}
+@media(max-width:480px){.logo svg{display:none}.hw h1{font-size:20px}}
+</style>
+</head>
+<body>
+<div class="rbar"><div class="rbar-in">
+<a href="#" class="act" onclick="event.preventDefault();go('main')">Encyclopedia</a><span class="rbar-s">|</span>
+<a href="#" onclick="event.preventDefault();go('p-email')">Email Archive</a><span class="rbar-s">|</span>
+<a href="#" onclick="event.preventDefault();go('p-flights')">Flight Logs</a><span class="rbar-s">|</span>
+<a href="#" onclick="event.preventDefault();go('p-court')">Court Documents</a><span class="rbar-s">|</span>
+<a href="#" onclick="event.preventDefault();go('p-pods')">Podcasts</a><span class="rbar-s">|</span>
+<a href="#" onclick="event.preventDefault();go('p-timeline')">Timeline</a><span class="rbar-s">|</span>
+<a href="#" onclick="event.preventDefault();go('p-about')">About</a>
+</div></div>
+
+<div class="hdr"><div class="hdr-in">
+<a class="logo" onclick="event.preventDefault();go('main')" href="#">
+<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" fill="none" stroke="#999" stroke-width="1"/><circle cx="50" cy="30" r="5" fill="#36c"/><circle cx="28" cy="55" r="4" fill="#666"/><circle cx="72" cy="55" r="4" fill="#666"/><circle cx="38" cy="75" r="3.5" fill="#999"/><circle cx="62" cy="75" r="3.5" fill="#999"/><circle cx="20" cy="38" r="3" fill="#999"/><circle cx="80" cy="38" r="3" fill="#999"/><line x1="50" y1="30" x2="28" y2="55" stroke="#ccc" stroke-width=".8"/><line x1="50" y1="30" x2="72" y2="55" stroke="#ccc" stroke-width=".8"/><line x1="50" y1="30" x2="20" y2="38" stroke="#ccc" stroke-width=".6"/><line x1="50" y1="30" x2="80" y2="38" stroke="#ccc" stroke-width=".6"/><line x1="28" y1="55" x2="38" y2="75" stroke="#ccc" stroke-width=".6"/><line x1="72" y1="55" x2="62" y2="75" stroke="#ccc" stroke-width=".6"/></svg>
+<div class="logo-t"><span class="logo-t1">The Epstein Files</span><span class="logo-t2">Network Encyclopedia</span></div>
+</a>
+<div class="srch">
+<input type="text" id="si" placeholder="Search the encyclopedia" oninput="hs()" onfocus="hs()" onkeydown="if(event.key==='Enter')ds()"/>
+<button class="srch-b" onclick="ds()">&#128269;</button>
+<div class="sdd" id="sd"></div>
+</div>
+</div></div>
+
+<div class="tabs"><div class="tabs-in"><div class="tab act">Article</div><div class="tab">Discussion</div></div></div>
+<div class="mc"><div class="sb" id="sb"></div><div class="wc" id="wc"></div></div>
+<div class="ft">Compiled from public court documents, email archives, flight logs, financial filings, and investigative journalism.<br>Inclusion does not imply wrongdoing. All persons presumed innocent unless convicted.</div>
+
+<script src="data.js"></script>
+<script>
+// Category colors
+const CC={"Principal":"#b32424","Inner Circle":"#d35400","Operations":"#e67e22","Personal Associate":"#f39c12","Victim/Accuser":"#8e44ad","Political":"#2980b9","Government":"#16a085","Legal":"#1abc9c","Finance":"#27ae60","Tech":"#6c5ce7","Philanthropy":"#27ae60","Academia":"#d4ac0d","Royalty":"#c0392b","Entertainment":"#8e44ad","Social":"#7f8c8d","Historical":"#95a5a6","Other":"#7f8c8d"};
+function cc(c){return CC[c]||"#7f8c8d"}
+function e(s){return s?s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"):""}
+function L(id,txt){if(DB[id])return'<a href="#" onclick="event.preventDefault();go(\''+id+'\')">'+e(txt||DB[id].n)+'</a>';return e(txt||id.replace(/-/g,' '))}
+
+let pg="main";
+function go(id){pg=id;render();window.scrollTo(0,0);
+document.querySelectorAll('.rbar a').forEach(a=>a.classList.remove('act'));
+if(id==='main')document.querySelector('.rbar a').classList.add('act');
+}
+
+// Search
+function hs(){const q=document.getElementById('si').value.toLowerCase().trim();const dd=document.getElementById('sd');
+if(!q){dd.classList.remove('open');return}
+const m=Object.entries(DB).filter(([i,p])=>p.n.toLowerCase().includes(q)||(p.sum&&p.sum.toLowerCase().includes(q))).slice(0,10);
+if(!m.length){dd.classList.remove('open');return}
+dd.innerHTML=m.map(([i,p])=>{let sn="";if(p.sum){const x=p.sum.toLowerCase().indexOf(q);if(x>=0){const a=Math.max(0,x-30),b=Math.min(p.sum.length,x+q.length+50);sn='<div class="sdd-s">'+(a>0?"...":"")+e(p.sum.slice(a,b))+(b<p.sum.length?"...":"")+'</div>'}}
+return'<div class="sdd-i" onclick="go(\''+i+'\')"><div class="sdd-n">'+e(p.n)+'</div><div class="sdd-c" style="color:'+cc(p.cat)+'">'+e(p.cat)+'</div>'+sn+'</div>'}).join("");
+dd.classList.add('open')}
+function ds(){const q=document.getElementById('si').value.toLowerCase().trim();if(!q)return;const m=Object.entries(DB).find(([i,p])=>p.n.toLowerCase().includes(q));if(m)go(m[0])}
+document.addEventListener('click',ev=>{if(!document.querySelector('.srch').contains(ev.target))document.getElementById('sd').classList.remove('open')});
+
+// Sidebar
+function buildSB(){const el=document.getElementById('sb');let h='<div class="sb-sec"><div class="sb-t">Navigation</div>';
+h+='<span class="sb-l" onclick="go(\'main\')">Main page</span>';
+h+='<span class="sb-l" onclick="go(\'jeffrey-epstein\')">Jeffrey Epstein</span></div>';
+h+='<div class="sb-sec"><div class="sb-t">Resources</div>';
+['p-email:Email archive','p-flights:Flight logs','p-court:Court documents','p-pods:Podcasts','p-timeline:Timeline'].forEach(s=>{const[id,nm]=s.split(':');h+='<span class="sb-l" onclick="go(\''+id+'\')">'+nm+'</span>'});h+='</div>';
+const cats={};Object.entries(DB).forEach(([id,p])=>{const c=p.cat||"Other";if(!cats[c])cats[c]=[];cats[c].push({id,n:p.n})});
+["Principal","Inner Circle","Operations","Victim/Accuser","Political","Government","Legal","Finance","Tech","Philanthropy","Academia","Royalty","Entertainment","Social","Historical","Personal Associate","Other"].forEach(cat=>{
+if(!cats[cat])return;cats[cat].sort((a,b)=>a.n.localeCompare(b.n));
+h+='<div class="sb-sec"><div class="sb-t" style="color:'+cc(cat)+'">'+e(cat)+'</div>';
+cats[cat].forEach(p=>{h+='<span class="sb-l" onclick="go(\''+p.id+'\')">'+e(p.n)+'</span>'});h+='</div>'});
+el.innerHTML=h}
+
+// Static pages
+const SP={
+'p-email':{t:'Email Archive',b:'<p>The Epstein email archive consists of government-released emails from Epstein\'s servers — over 700,000 total.</p><p>Key individuals by volume: <b>Lesley Groff</b> (230,115), <b>Rich Kahn</b> (92,049), <b>Karyna Shuliak</b> (48,933), <b>Larry Visoski</b> (38,726).</p><p>Emails are being indexed by <a href="https://jmail.world" target="_blank">Jmail.world</a>.</p><p><i>Searchable archive coming soon.</i></p>'},
+'p-flights':{t:'Flight Logs',b:'<p>Logs from Epstein\'s Boeing 727 (N908JE, the "Lolita Express") and smaller jets document hundreds of flights. Maintained by pilots David Rodgers and Larry Visoski.</p><p><i>Searchable database coming soon.</i></p>'},
+'p-court':{t:'Court Documents',b:'<p>Key documents:</p><ul><li><b>2008 Non-Prosecution Agreement</b></li><li><b>Giuffre v. Maxwell</b> — unsealed documents</li><li><b>U.S. v. Epstein (2019)</b> — federal indictment</li><li><b>U.S. v. Maxwell</b> — trial transcripts</li><li><b>JPMorgan Settlement</b> — $365M+</li><li><b>Deutsche Bank Settlement</b> — $75M</li></ul><p><i>Document library coming soon.</i></p>'},
+'p-pods':{t:'Podcasts & Media',b:'<p>Recommended:</p><ul><li><b>All Things Epstein</b> — comprehensive podcast</li><li><b>Broken: Seeking Justice</b> — victim-focused</li><li><b>Epstein Chronicles</b> — detailed analysis</li><li><b>Filthy Rich</b> (Netflix) — documentary</li><li><b>Jeffrey Epstein: Power and Privilege</b> (ID)</li><li><b>Who Is Ghislaine Maxwell?</b> (Starz)</li></ul><p><i>More coming soon.</i></p>'},
+'p-timeline':{t:'Timeline',b:'<ul><li><b>1973</b> — Donald Barr hires Epstein at Dalton</li><li><b>1976</b> — Epstein joins Bear Stearns</li><li><b>~1986</b> — Begins managing Wexner\'s money</li><li><b>~1991</b> — Relationship with Maxwell begins</li><li><b>2005</b> — Palm Beach police investigate</li><li><b>2006</b> — FBI investigation</li><li><b>2008</b> — Non-prosecution agreement; 13-month sentence</li><li><b>2010</b> — Prince Andrew photographed with Epstein</li><li><b>2011</b> — Bill Gates begins meeting Epstein</li><li><b>2015</b> — Giuffre sues Maxwell</li><li><b>2018</b> — Miami Herald "Perversion of Justice"</li><li><b>2019 Jul 6</b> — Arrested at Teterboro</li><li><b>2019 Aug 10</b> — Found dead at MCC</li><li><b>2020 Jul</b> — Maxwell arrested</li><li><b>2020 Dec</b> — Brunel arrested</li><li><b>2021 Dec</b> — Maxwell convicted</li><li><b>2022 Feb</b> — Brunel found dead; Andrew settles</li><li><b>2022 Jun</b> — Maxwell sentenced to 20 years</li><li><b>2024-25</b> — Continued document releases</li></ul>'},
+'p-about':{t:'About',b:'<p>The Epstein Files Network Encyclopedia maps Jeffrey Epstein\'s connections — direct associates, extended network, institutions, and historical context.</p><p>Sources: government emails, court documents, flight logs, financial filings, investigative journalism.</p><p><b>Important:</b> Inclusion does not imply wrongdoing. Many listed had only social or professional contact. All presumed innocent unless convicted.</p>'}
+};
+
+function render(){const el=document.getElementById('wc');
+if(pg==='main')el.innerHTML=renderMain();
+else if(SP[pg])el.innerHTML='<div class="at-h"><h1>'+e(SP[pg].t)+'</h1></div><div class="ab">'+SP[pg].b+'</div>';
+else el.innerHTML=renderArt(pg)}
+
+function renderMain(){
+const all=Object.entries(DB),tc=all.reduce((s,[,p])=>s+(p.con?p.con.length:0),0);
+const cats={};all.forEach(([id,p])=>{const c=p.cat||"Other";if(!cats[c])cats[c]=[];cats[c].push({id,n:p.n})});
+Object.values(cats).forEach(a=>a.sort((x,y)=>x.n.localeCompare(y.n)));
+const co=["Principal","Inner Circle","Operations","Victim/Accuser","Political","Government","Legal","Finance","Tech","Philanthropy","Academia","Royalty","Entertainment","Social","Historical","Personal Associate","Other"];
+let catLinks=co.filter(c=>cats[c]).map(c=>'<a href="#" onclick="event.preventDefault();document.getElementById(\'c-'+c.replace(/[^a-z]/gi,'')+'\').scrollIntoView({behavior:\'smooth\'})">'+c+'</a> ('+cats[c].length+')').join(" &middot; ");
+let kp=["jeffrey-epstein","ghislaine-maxwell","leslie-wexner","leon-black","prince-andrew","virginia-giuffre","bill-gates","bill-clinton","donald-trump","alan-dershowitz"].map(id=>DB[id]?'<li>'+L(id)+' &mdash; '+e(DB[id].sum.split('.')[0])+'.</li>':'').join('');
+let cs=co.filter(c=>cats[c]).map(c=>'<div id="c-'+c.replace(/[^a-z]/gi,'')+'" style="margin-bottom:16px"><h3 style="font-family:var(--sf);font-size:16px;font-weight:400;border-bottom:1px solid #eaecf0;padding-bottom:2px;margin-bottom:6px"><span style="color:'+cc(c)+'">&#9632;</span> '+e(c)+' <span style="font-size:12px;color:var(--txm)">('+cats[c].length+')</span></h3><div style="font-size:13px;line-height:1.8">'+cats[c].map(p=>L(p.id)).join(' &middot; ')+'</div></div>').join('');
+return '<div class="hw"><h1>Welcome to <b>The Epstein Files</b></h1><p>the network encyclopedia &mdash; <b>'+all.length+'</b> articles mapping <b>'+tc+'</b> connections</p></div>'+
+'<div class="hsb"><input type="text" id="hs2" placeholder="Search the encyclopedia..." onkeydown="if(event.key===\'Enter\'){const q=this.value.toLowerCase();const m=Object.entries(DB).find(([i,p])=>p.n.toLowerCase().includes(q));if(m)go(m[0])}"/><button onclick="const q=document.getElementById(\'hs2\').value.toLowerCase();const m=Object.entries(DB).find(([i,p])=>p.n.toLowerCase().includes(q));if(m)go(m[0])">Search</button></div>'+
+'<div class="hcol"><div>'+
+'<div class="hb"><div class="hb-h blu">Featured article</div><div class="hb-b"><p><b>'+L('jeffrey-epstein')+'</b> was an American financier who cultivated one of the most extensive networks of powerful connections ever documented. With '+DB['jeffrey-epstein'].con.length+' direct connections mapped here, his network spans heads of state, billionaires, scientists, and royalty. '+L('jeffrey-epstein','Read more...')+'</p></div></div>'+
+'<div class="hb"><div class="hb-h grn">Key figures</div><div class="hb-b"><ul>'+kp+'</ul></div></div>'+
+'<div class="hb"><div class="hb-h yel">Extended network</div><div class="hb-b"><p>This encyclopedia maps <b>second and third-degree connections</b>:</p><ul>'+
+'<li>'+L('donald-barr')+' hired Epstein &rarr; son '+L('bill-barr')+' became AG during his death</li>'+
+'<li>'+L('ronald-lauder')+' &rarr; son-in-law '+L('kevin-warsh')+' on Federal Reserve</li>'+
+'<li>'+L('leon-black')+' (Apollo) &rarr; co-founders '+L('josh-harris')+' and '+L('marc-rowan')+'</li>'+
+'<li>'+L('bill-gates')+' &rarr; advisor '+L('boris-nikolic')+' named in Epstein\'s will</li></ul></div></div>'+
+'</div><div>'+
+'<div class="hb"><div class="hb-h pur">Resources</div><div class="hb-b"><ul>'+
+'<li><a href="#" onclick="event.preventDefault();go(\'p-email\')">Email Archive</a> &mdash; 700,000+ emails</li>'+
+'<li><a href="#" onclick="event.preventDefault();go(\'p-flights\')">Flight Logs</a> &mdash; aircraft records</li>'+
+'<li><a href="#" onclick="event.preventDefault();go(\'p-court\')">Court Documents</a> &mdash; filings, depositions</li>'+
+'<li><a href="#" onclick="event.preventDefault();go(\'p-pods\')">Podcasts</a> &mdash; All Things Epstein &amp; more</li>'+
+'<li><a href="#" onclick="event.preventDefault();go(\'p-timeline\')">Timeline</a> &mdash; key dates 1973-2025</li></ul></div></div>'+
+'<div class="hb"><div class="hb-h gry">Browse by category</div><div class="hb-b" style="font-size:12.5px;line-height:1.8">'+catLinks+'</div></div>'+
+'<div class="hb"><div class="hb-h red">Key institutions</div><div class="hb-b"><ul>'+
+'<li><b>JPMorgan Chase</b> &mdash; $365M+ settlement</li><li><b>Deutsche Bank</b> &mdash; $75M settlement</li>'+
+'<li><b>Harvard</b> &mdash; accepted $6.5M+</li><li><b>MIT Media Lab</b> &mdash; secretly solicited donations</li>'+
+'<li><b>Apollo Global</b> &mdash; CEO paid $158M in fees</li><li><b>Victoria\'s Secret / L Brands</b></li>'+
+'<li><b>MC2 Model Management</b></li><li><b>Dalton School</b></li><li><b>Kirkland &amp; Ellis</b></li>'+
+'</ul><p><i>Institutional articles coming soon.</i></p></div></div></div></div>'+
+'<h2 style="font-family:var(--sf);font-size:20px;font-weight:400;border-bottom:1px solid var(--bd);padding-bottom:3px;margin:24px 0 16px">All articles by category</h2>'+cs}
+
+function renderArt(id){
+const p=DB[id];if(!p)return'<p>Article not found.</p>';
+let ib='<div class="ib"><div class="ib-h">'+e(p.n)+'</div>';
+if(p.b)ib+='<div class="ib-r"><div class="ib-l">Born</div><div class="ib-v">'+e(p.b)+'</div></div>';
+if(p.d)ib+='<div class="ib-r"><div class="ib-l">Died</div><div class="ib-v" style="color:#b32424">'+e(p.d)+'</div></div>';
+ib+='<div class="ib-r"><div class="ib-l">Category</div><div class="ib-v" style="color:'+cc(p.cat)+';font-weight:600">'+e(p.cat)+'</div></div>';
+if(p.con)ib+='<div class="ib-r"><div class="ib-l">Connections</div><div class="ib-v">'+p.con.length+'</div></div>';
+if(p.inst&&p.inst.length){ib+='<div class="ib-s">Institutions</div>';p.inst.forEach(i=>{ib+='<div class="ib-r"><div class="ib-v" style="width:100%">'+e(i)+'</div></div>'})}
+if(p.props&&p.props.length){ib+='<div class="ib-s">Properties</div>';p.props.forEach(i=>{ib+='<div class="ib-r"><div class="ib-v" style="width:100%">'+e(i)+'</div></div>'})}
+ib+='</div>';
+let toc='<div class="toc"><div class="toc-t">Contents</div><ol><li><a href="#s-sum">Summary</a></li>';
+if(p.det)toc+='<li><a href="#s-bg">Background</a></li>';
+if(p.con&&p.con.length)toc+='<li><a href="#s-con">Known connections</a></li>';
+const inc=Object.entries(DB).filter(([oid,op])=>oid!==id&&op.con&&op.con.some(c=>c.t===id));
+if(inc.length)toc+='<li><a href="#s-ref">Referenced by</a></li>';
+toc+='</ol></div>';
+let body='<div id="s-sum"><p>'+e(p.sum)+'</p></div>';
+if(p.det){body+='<h2 id="s-bg">Background</h2>';p.det.split('\n\n').forEach(para=>{body+='<p>'+e(para)+'</p>'})}
+if(p.con&&p.con.length){body+='<h2 id="s-con">Known connections</h2><table class="ctl"><tr><th>Name</th><th>Category</th><th>Relationship</th></tr>';
+p.con.forEach(c=>{const t=DB[c.t];body+='<tr><td>'+(t?L(c.t):e(c.t.replace(/-/g,' ')))+'</td><td style="font-size:12px;color:'+(t?cc(t.cat):'#999')+'">'+(t?e(t.cat):'')+'</td><td>'+e(c.r)+'</td></tr>'});body+='</table>'}
+if(inc.length){body+='<h2 id="s-ref">Referenced by</h2><div class="rbl">'+inc.map(([oid,op])=>'<span class="rb" onclick="go(\''+oid+'\')">'+e(op.n)+'</span>').join('')+'</div>'}
+body+='<div class="acat"><b>Categories:</b> '+e(p.cat)+'</div>';
+return'<div class="at-h"><h1>'+e(p.n)+'</h1></div><div class="ab cf">'+ib+toc+body+'</div>'}
+
+buildSB();render();
+</script>
+</body>
+</html>
