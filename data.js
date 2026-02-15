@@ -826,5 +826,55 @@ con:[{t:"doug-band",r:"Co-founder"},{t:"bill-clinton",r:"Connected through Band"
 
 "epstein-victims-fund":{n:"Epstein Victims' Compensation Fund",cat:"Institution",
 sum:"Fund established to compensate Epstein's victims. Received proceeds from property sales including $51M from Manhattan townhouse. Administered by Kenneth Feinberg. Over $120M distributed to 150+ victims.",
-con:[{t:"jeffrey-epstein",r:"Estate funded it"}]}
+con:[{t:"jeffrey-epstein",r:"Estate funded it"}]},
+
+"miami-herald":{n:"Miami Herald",cat:"Source",
+sum:"~200+ articles. Julie K. Brown's 'Perversion of Justice' series (Nov 2018) single-handedly revived the Epstein case, leading to his 2019 re-arrest. Won two George Polk Awards.",
+det:"Key Articles:\n• 'Perversion of Justice' series (November 2018) — the investigation that changed everything\n• Ongoing coverage of 2026 DOJ releases\n• Brown's book 'Perversion of Justice' (2021)\n\nKey Reporter: Julie K. Brown\n\nNote: Alan Dershowitz tried to pressure Pulitzer committee to exclude Brown.",
+con:[{t:"jeffrey-epstein",r:"Breakthrough investigation"}]},
+
+"bloomberg-news":{n:"Bloomberg News",cat:"Source",
+sum:"~150+ articles. Independently obtained 18,700 emails from Epstein's personal Yahoo account (Sept 2025) — the largest independent acquisition outside DOJ releases. Strong financial coverage.",
+det:"Key Stories:\n• Epstein email cache (18,700 emails, cryptographically verified)\n• Leon Black financial reporting\n• Ariane de Rothschild $25M deal\n• Merrie Spaeth PR coaching story\n• Banking connections coverage",
+con:[{t:"jeffrey-epstein",r:"Email cache obtained"},{t:"leon-black",r:"Financial coverage"},{t:"ariane-de-rothschild",r:"Rothschild deal coverage"}]},
+
+"new-york-times":{n:"New York Times",cat:"Source",
+sum:"~300+ articles. Extensive institutional coverage since 2019: Leon Black $158M payments, Bill Gates meetings, Harvard/MIT funding scandals, Maxwell trial.",
+det:"Key Stories:\n• Leon Black / $158M payments to Epstein\n• Bill Gates-Epstein meetings\n• Harvard/MIT funding scandals\n• Maxwell trial coverage\n• Steven Mnuchin/Milken plane reporting\n\nCriticism: Employed Landon Thomas Jr., who privately corresponded with Epstein.",
+con:[{t:"leon-black",r:"$158M story"},{t:"bill-gates",r:"Meetings coverage"},{t:"harvard-university",r:"Funding scandal"},{t:"mit-media-lab",r:"Funding scandal"}]},
+
+"wall-street-journal":{n:"Wall Street Journal",cat:"Source",
+sum:"~200+ articles. Leon Black's 69 bank accounts revealed, Trump's birthday note to Epstein, extensive corporate coverage. Owned by Rupert Murdoch (in Epstein's black book).",
+det:"Key Stories:\n• Leon Black financial architecture (69 bank accounts, $2B art collateral)\n• Trump's alleged 'bawdy' 50th birthday note to Epstein (2003)\n• Corporate accountability coverage\n\nNote: Owned by Rupert Murdoch's News Corp. Murdoch is in Epstein's black book.",
+con:[{t:"leon-black",r:"Financial investigation"},{t:"donald-trump",r:"Birthday note story"},{t:"rupert-murdoch",r:"Owner in black book"}]},
+
+"the-guardian":{n:"The Guardian",cat:"Source",
+sum:"~250+ articles. Strongest on UK/European angles: Prince Andrew, Peter Mandelson, Crown Princess Mette-Marit. 'The emails showcase the private behaviour of a male ruling class.'",
+det:"Key Stories:\n• Prince Andrew coverage\n• Peter Mandelson revelations\n• Crown Princess Mette-Marit\n• John Casablancas/Elite Models connection\n• UK political fallout (Starmer government)\n• Morgan McSweeney resignation",
+con:[{t:"prince-andrew",r:"UK coverage"},{t:"peter-mandelson",r:"Revelations"},{t:"mette-marit",r:"Norwegian royal coverage"}]},
+
+"financial-times":{n:"Financial Times",cat:"Source",
+sum:"~100+ articles. Corporate accountability focus: Ariane de Rothschild $25M deal, Kathy Ruemmler Goldman resignation, DP World/Sulayem departure.",
+det:"Key Stories:\n• Ariane de Rothschild / $25M consulting deal\n• Kathy Ruemmler resignation from Goldman Sachs\n• Peter Mandelson confrontation (told FT to 'fuck off')\n• DP World / Sultan bin Sulayem departure\n\nKey Reporter: Edward Luce (US editor)",
+con:[{t:"ariane-de-rothschild",r:"Rothschild story"},{t:"kathy-ruemmler",r:"Goldman resignation"},{t:"sultan-bin-sulayem",r:"DP World story"}]},
+
+"drop-site-news":{n:"Drop Site News",cat:"Source",
+sum:"~30+ articles. Leading independent investigation. Exclusive series on Epstein's connections to Israeli intelligence (Sept-Nov 2025). 'Blockbuster reporting not matched by mainstream media.'",
+det:"Key Stories:\n• Israeli intelligence connections series (September-November 2025)\n• Described by The Nation's Jeet Heer as 'blockbuster reporting...not matched by any comparable investigations in The New York Times or The Washington Post'\n\nKey Reporters: Ryan Grim, Murtaza Hussain, Jeremy Scahill",
+con:[{t:"ehud-barak",r:"Israeli intelligence angle"}]},
+
+"daily-beast":{n:"The Daily Beast",cat:"Source",
+sum:"~80+ articles. Consistently aggressive coverage: Vicky Ward's Vanity Fair suppression story, Leon Black/Milken at Trump inauguration, Ned's Club reporting.",
+det:"Key Stories:\n• Vicky Ward's reporting on Vanity Fair profile suppression (Graydon Carter killed allegations)\n• Leon Black / Milken at Trump inauguration / Ned's Club\n• Ongoing aggressive coverage",
+con:[{t:"leon-black",r:"Inauguration story"},{t:"michael-milken",r:"Ned's Club coverage"}]},
+
+"deadline":{n:"Deadline",cat:"Source",
+sum:"~50+ articles. Leading entertainment industry Epstein coverage. Broke Casey Wasserman/LA28 Olympics fallout, client departures (Chappell Roan, Abby Wambach).",
+det:"Key Stories:\n• Casey Wasserman / LA28 Olympics fallout — broke McCarthy replacement story exclusively\n• Chappell Roan departure from Wasserman\n• Orville Peck departure\n• Abby Wambach departure\n• Wasserman-Katzenberg board dynamics",
+con:[{t:"casey-wasserman",r:"LA28 coverage"},{t:"la28",r:"Olympics fallout"}]},
+
+"zeteo":{n:"Zeteo (Mehdi Hasan)",cat:"Source",
+sum:"~20+ articles/episodes. Mehdi Hasan's independent outlet after MSNBC. 'Unshocked' series with Naomi Klein. Among most persistent independent voices on the story.",
+det:"Key Work:\n• 'Unshocked' series with Naomi Klein\n• 'Ask the Editor' live shows\n• Rep. Ro Khanna interview on cover-up allegations\n• Edward Luce interview\n\nNote: Hasan's MSNBC show was cancelled; he continued coverage independently.",
+con:[{t:"jeffrey-epstein",r:"Persistent coverage"}]}
 };
