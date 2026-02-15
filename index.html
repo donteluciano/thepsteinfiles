@@ -51,14 +51,25 @@ a{color:var(--lk);text-decoration:none}a:hover{text-decoration:underline}
 .wc{flex:1;padding:16px 20px 40px;min-width:0;overflow-wrap:break-word}
 
 /* HOME */
-.hw{border:1px solid #a7d7f9;background:#f5faff;padding:20px 24px;margin-bottom:20px;text-align:center}
-.hw h1{font-family:var(--sf);font-size:26px;font-weight:400;margin-bottom:4px}
-.hw p{font-size:13.5px;color:var(--tx2);max-width:600px;margin:0 auto}.hw b{color:var(--tx)}
-.hsb{text-align:center;margin:20px 0 28px}
-.hsb input{width:400px;max-width:90%;padding:8px 14px;font-size:15px;border:2px solid var(--bd);border-radius:3px;outline:none;font-family:var(--ss)}
+.hw{border:1px solid #a7d7f9;background:linear-gradient(180deg,#fff 0%,#f5faff 100%);padding:30px 24px;margin-bottom:24px;text-align:center}
+.hw h1{font-family:var(--sf);font-size:28px;font-weight:400;margin-bottom:8px}
+.hw h1 b{font-weight:600;color:#000}
+.hw p{font-size:14px;color:var(--tx2);max-width:650px;margin:0 auto;line-height:1.6}.hw b{color:var(--tx);font-weight:600}
+.hw-sub{font-size:12.5px;color:var(--txm);margin-top:6px}
+.hsb{text-align:center;margin:20px 0 28px;position:relative;display:inline-block;width:100%}
+.hsb-wrap{position:relative;display:inline-block;width:500px;max-width:90%}
+.hsb input{width:100%;padding:10px 16px;font-size:16px;border:2px solid var(--bd);border-radius:3px;outline:none;font-family:var(--ss)}
 .hsb input:focus{border-color:#36c}
-.hsb button{padding:8px 18px;font-size:14px;margin-left:6px;background:#f8f9fa;border:1px solid var(--bd);border-radius:3px;cursor:pointer;font-family:var(--ss)}
+.hsb button{padding:10px 20px;font-size:14px;margin-left:8px;background:#f8f9fa;border:1px solid var(--bd);border-radius:3px;cursor:pointer;font-family:var(--ss)}
 .hsb button:hover{background:#eaecf0}
+.hsb-dd{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid var(--bd);border-top:none;box-shadow:0 4px 8px rgba(0,0,0,.1);z-index:100;display:none;text-align:left;max-height:400px;overflow-y:auto}
+.hsb-dd.open{display:block}
+.hsb-dd-i{padding:10px 14px;cursor:pointer;border-bottom:1px solid var(--bde)}
+.hsb-dd-i:hover,.hsb-dd-i.sel{background:#e8f0fe}
+.hsb-dd-i:last-child{border-bottom:none}
+.hsb-dd-n{font-size:15px;font-weight:500;color:var(--lk)}
+.hsb-dd-c{font-size:12px;color:var(--txm);margin-top:2px}
+.hsb-dd-s{font-size:13px;color:var(--tx2);margin-top:3px}
 .hcol{display:flex;gap:16px;margin-bottom:16px}.hcol>div{flex:1;min-width:0}
 .hb{border:1px solid var(--bdl);margin-bottom:16px}
 .hb-h{padding:6px 12px;font-family:var(--sf);font-size:15px;border-bottom:1px solid var(--bdl)}
@@ -143,7 +154,24 @@ dd.innerHTML=m.map(([i,p])=>{let sn="";if(p.sum){const x=p.sum.toLowerCase().ind
 return'<div class="sdd-i" onclick="go(\''+i+'\')"><div class="sdd-n">'+e(p.n)+'</div><div class="sdd-c" style="color:'+cc(p.cat)+'">'+e(p.cat)+'</div>'+sn+'</div>'}).join("");
 dd.classList.add('open')}
 function ds(){const q=document.getElementById('si').value.toLowerCase().trim();if(!q)return;const m=Object.entries(DB).find(([i,p])=>p.n.toLowerCase().includes(q));if(m)go(m[0])}
-document.addEventListener('click',ev=>{if(!document.querySelector('.srch').contains(ev.target))document.getElementById('sd').classList.remove('open')});
+document.addEventListener('click',ev=>{if(!document.querySelector('.srch').contains(ev.target))document.getElementById('sd').classList.remove('open');
+const hw=document.querySelector('.hsb-wrap');if(hw&&!hw.contains(ev.target)){const hd=document.getElementById('hsd');if(hd)hd.classList.remove('open')}});
+
+// Home search autocomplete
+let hs2sel=-1,hs2res=[];
+function hs2(){const inp=document.getElementById('hs2');if(!inp)return;const q=inp.value.toLowerCase().trim();const dd=document.getElementById('hsd');if(!dd)return;
+if(!q){dd.classList.remove('open');hs2res=[];hs2sel=-1;return}
+hs2res=Object.entries(DB).filter(([i,p])=>p.n.toLowerCase().includes(q)||(p.sum&&p.sum.toLowerCase().includes(q))).slice(0,8);
+if(!hs2res.length){dd.classList.remove('open');return}
+hs2sel=-1;hs2render(q);dd.classList.add('open')}
+function hs2render(q){const dd=document.getElementById('hsd');if(!dd)return;
+dd.innerHTML=hs2res.map(([i,p],idx)=>{let sn='';if(p.sum){const snip=p.sum.length>100?p.sum.slice(0,100)+'...':p.sum;sn='<div class="hsb-dd-s">'+e(snip)+'</div>'}
+return'<div class="hsb-dd-i'+(idx===hs2sel?' sel':'')+'" onmouseenter="hs2sel='+idx+';hs2render()" onclick="go(\''+i+'\')"><div class="hsb-dd-n">'+e(p.n)+'</div><div class="hsb-dd-c" style="color:'+cc(p.cat)+'">'+e(p.cat)+'</div>'+sn+'</div>'}).join('')}
+function hs2k(ev){if(!hs2res.length)return;
+if(ev.key==='ArrowDown'){ev.preventDefault();hs2sel=Math.min(hs2sel+1,hs2res.length-1);hs2render()}
+else if(ev.key==='ArrowUp'){ev.preventDefault();hs2sel=Math.max(hs2sel-1,-1);hs2render()}
+else if(ev.key==='Enter'){ev.preventDefault();if(hs2sel>=0&&hs2res[hs2sel])go(hs2res[hs2sel][0]);else if(hs2res.length)go(hs2res[0][0])}}
+function hs2go(){if(hs2res.length)go(hs2res[0][0])}
 
 // Sidebar
 function buildSB(){const el=document.getElementById('sb');let h='<div class="sb-sec"><div class="sb-t">Navigation</div>';
@@ -181,8 +209,8 @@ const co=["Principal","Inner Circle","Operations","Victim/Accuser","Political","
 let catLinks=co.filter(c=>cats[c]).map(c=>'<a href="#" onclick="event.preventDefault();document.getElementById(\'c-'+c.replace(/[^a-z]/gi,'')+'\').scrollIntoView({behavior:\'smooth\'})">'+c+'</a> ('+cats[c].length+')').join(" &middot; ");
 let kp=["jeffrey-epstein","ghislaine-maxwell","leslie-wexner","leon-black","prince-andrew","virginia-giuffre","bill-gates","bill-clinton","donald-trump","alan-dershowitz"].map(id=>DB[id]?'<li>'+L(id)+' &mdash; '+e(DB[id].sum.split('.')[0])+'.</li>':'').join('');
 let cs=co.filter(c=>cats[c]).map(c=>'<div id="c-'+c.replace(/[^a-z]/gi,'')+'" style="margin-bottom:16px"><h3 style="font-family:var(--sf);font-size:16px;font-weight:400;border-bottom:1px solid #eaecf0;padding-bottom:2px;margin-bottom:6px"><span style="color:'+cc(c)+'">&#9632;</span> '+e(c)+' <span style="font-size:12px;color:var(--txm)">('+cats[c].length+')</span></h3><div style="font-size:13px;line-height:1.8">'+cats[c].map(p=>L(p.id)).join(' &middot; ')+'</div></div>').join('');
-return '<div class="hw"><h1>Welcome to <b>The Epstein Files</b></h1><p>the network encyclopedia &mdash; <b>'+all.length+'</b> articles mapping <b>'+tc+'</b> connections</p></div>'+
-'<div class="hsb"><input type="text" id="hs2" placeholder="Search the encyclopedia..." onkeydown="if(event.key===\'Enter\'){const q=this.value.toLowerCase();const m=Object.entries(DB).find(([i,p])=>p.n.toLowerCase().includes(q));if(m)go(m[0])}"/><button onclick="const q=document.getElementById(\'hs2\').value.toLowerCase();const m=Object.entries(DB).find(([i,p])=>p.n.toLowerCase().includes(q));if(m)go(m[0])">Search</button></div>'+
+return '<div class="hw"><h1>Welcome to <b>The Epstein Files</b></h1><p>The free encyclopedia mapping Jeffrey Epstein\'s network of connections &mdash; from direct associates to second and third-degree relationships across finance, politics, academia, and beyond.</p><div class="hw-sub"><b>'+all.length+'</b> articles &bull; <b>'+tc+'</b> documented connections &bull; Fully sourced from public records</div></div>'+
+'<div class="hsb"><div class="hsb-wrap"><input type="text" id="hs2" placeholder="Search people, institutions, connections..." autocomplete="off" oninput="hs2()" onfocus="hs2()" onkeydown="hs2k(event)"/><div class="hsb-dd" id="hsd"></div></div><button onclick="hs2go()">Search</button></div>'+
 '<div class="hcol"><div>'+
 '<div class="hb"><div class="hb-h blu">Featured article</div><div class="hb-b"><p><b>'+L('jeffrey-epstein')+'</b> was an American financier who cultivated one of the most extensive networks of powerful connections ever documented. With '+DB['jeffrey-epstein'].con.length+' direct connections mapped here, his network spans heads of state, billionaires, scientists, and royalty. '+L('jeffrey-epstein','Read more...')+'</p></div></div>'+
 '<div class="hb"><div class="hb-h grn">Key figures</div><div class="hb-b"><ul>'+kp+'</ul></div></div>'+
