@@ -171,14 +171,15 @@ if(id==='main')document.querySelector('.rbar a').classList.add('act');
 }
 
 // Search
+function matchPerson(p,q){return p.n.toLowerCase().includes(q)||(p.a&&p.a.some(a=>a.toLowerCase().includes(q)))||(p.sum&&p.sum.toLowerCase().includes(q))}
 function hs(){const q=document.getElementById('si').value.toLowerCase().trim();const dd=document.getElementById('sd');
 if(!q){dd.classList.remove('open');return}
-const m=Object.entries(DB).filter(([i,p])=>p.n.toLowerCase().includes(q)||(p.sum&&p.sum.toLowerCase().includes(q))).slice(0,10);
+const m=Object.entries(DB).filter(([i,p])=>matchPerson(p,q)).slice(0,10);
 if(!m.length){dd.classList.remove('open');return}
 dd.innerHTML=m.map(([i,p])=>{let sn="";if(p.sum){const x=p.sum.toLowerCase().indexOf(q);if(x>=0){const a=Math.max(0,x-30),b=Math.min(p.sum.length,x+q.length+50);sn='<div class="sdd-s">'+(a>0?"...":"")+e(p.sum.slice(a,b))+(b<p.sum.length?"...":"")+'</div>'}}
 return'<div class="sdd-i" onclick="go(\''+i+'\')"><div class="sdd-n">'+e(p.n)+'</div><div class="sdd-c" style="color:'+cc(p.cat)+'">'+e(p.cat)+'</div>'+sn+'</div>'}).join("");
 dd.classList.add('open')}
-function ds(){const q=document.getElementById('si').value.toLowerCase().trim();if(!q)return;const m=Object.entries(DB).find(([i,p])=>p.n.toLowerCase().includes(q));if(m)go(m[0])}
+function ds(){const q=document.getElementById('si').value.toLowerCase().trim();if(!q)return;const m=Object.entries(DB).find(([i,p])=>matchPerson(p,q));if(m)go(m[0])}
 document.addEventListener('click',ev=>{if(!document.querySelector('.srch').contains(ev.target))document.getElementById('sd').classList.remove('open');
 const hw=document.querySelector('.hsb-wrap');if(hw&&!hw.contains(ev.target)){const hd=document.getElementById('hsd');if(hd)hd.classList.remove('open')}});
 
@@ -186,7 +187,7 @@ const hw=document.querySelector('.hsb-wrap');if(hw&&!hw.contains(ev.target)){con
 let hs2sel=-1,hs2res=[];
 function hs2(){const inp=document.getElementById('hs2');if(!inp)return;const q=inp.value.toLowerCase().trim();const dd=document.getElementById('hsd');if(!dd)return;
 if(!q){dd.classList.remove('open');hs2res=[];hs2sel=-1;return}
-hs2res=Object.entries(DB).filter(([i,p])=>p.n.toLowerCase().includes(q)||(p.sum&&p.sum.toLowerCase().includes(q))).slice(0,8);
+hs2res=Object.entries(DB).filter(([i,p])=>matchPerson(p,q)).slice(0,8);
 if(!hs2res.length){dd.classList.remove('open');return}
 hs2sel=-1;hs2render(q);dd.classList.add('open')}
 function hs2render(q){const dd=document.getElementById('hsd');if(!dd)return;
