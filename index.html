@@ -168,6 +168,11 @@ let pg="main";
 function go(id){pg=id;render();window.scrollTo(0,0);
 document.querySelectorAll('.rbar a').forEach(a=>a.classList.remove('act'));
 if(id==='main')document.querySelector('.rbar a').classList.add('act');
+// Close search dropdowns
+const sd=document.getElementById('sd');if(sd)sd.classList.remove('open');
+const hsd=document.getElementById('hsd');if(hsd)hsd.classList.remove('open');
+const si=document.getElementById('si');if(si)si.value='';
+const hs2=document.getElementById('hs2');if(hs2)hs2.value='';
 }
 
 // Search

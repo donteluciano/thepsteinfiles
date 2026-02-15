@@ -37,7 +37,7 @@ con:[{t:"jeffrey-epstein",r:"Hired at Dalton 1973"},{t:"bill-barr",r:"Son; becam
 sum:"U.S. Attorney General under Bush and Trump. Father hired Epstein at Dalton. Oversaw DOJ during 2019 arrest and death. Called it 'perfect storm of screw-ups.'",
 con:[{t:"donald-barr",r:"Son of man who hired Epstein"},{t:"jeffrey-epstein",r:"Oversaw DOJ during arrest/death"},{t:"donald-trump",r:"Served as AG"},{t:"alexander-acosta",r:"NPA scrutinized under his DOJ"}],inst:["DOJ (Attorney General)","Kirkland & Ellis","CIA (early career)"]},
 
-"leslie-wexner":{n:"Leslie Wexner",a:["Les Wexner","Lex Wexner"],b:"September 8, 1937",cat:"Finance",
+"leslie-wexner":{n:"Leslie Wexner (Les/Lex)",a:["Les Wexner","Lex Wexner","Lex"],b:"September 8, 1937",cat:"Finance",
 sum:"Billionaire founder of L Brands (Victoria's Secret, The Limited). Epstein's key client. Granted power of attorney. Transferred Manhattan townhouse. Later said Epstein 'misappropriated vast sums.'",
 con:[{t:"jeffrey-epstein",r:"Primary client; granted power of attorney"},{t:"abigail-wexner",r:"Wife"}],inst:["L Brands (founder)","Victoria's Secret","Wexner Foundation"]},
 
