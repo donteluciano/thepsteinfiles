@@ -904,5 +904,85 @@ con:[{t:"jeffrey-epstein",r:"Co-signed Epstein files report"},{t:"donald-trump",
 
 "margaret-thatcher":{n:"Margaret Thatcher",b:"October 13, 1925",d:"April 8, 2013",cat:"Political",
 sum:"Former UK Prime Minister (1979-1990). Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["UK Prime Minister (1979-1990)"]}
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["UK Prime Minister (1979-1990)"]},
+
+"jeff-bezos":{n:"Jeff Bezos",b:"January 12, 1964",cat:"Tech",
+sum:"Amazon founder. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Amazon","Blue Origin","Washington Post"]},
+
+"beyonce":{n:"Beyoncé",b:"September 4, 1981",cat:"Entertainment",
+sum:"Musician. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}]},
+
+"george-clooney":{n:"George Clooney",b:"May 6, 1961",cat:"Entertainment",
+sum:"Actor. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}]},
+
+"julian-assange":{n:"Julian Assange",b:"July 3, 1971",cat:"Other",
+sum:"WikiLeaks founder. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["WikiLeaks"]},
+
+"hunter-biden":{n:"Hunter Biden",b:"February 4, 1970",cat:"Political",
+sum:"Son of President Joe Biden. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}]},
+
+"jared-kushner":{n:"Jared Kushner",b:"January 10, 1981",cat:"Political",
+sum:"Former Trump senior advisor, son-in-law. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Son-in-law"},{t:"ivanka-trump",r:"Husband"}],inst:["White House (former)","Affinity Partners"]},
+
+"benjamin-netanyahu":{n:"Benjamin Netanyahu",b:"October 21, 1949",cat:"Political",
+sum:"Prime Minister of Israel. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"ehud-barak",r:"Israeli politics"}],inst:["Prime Minister of Israel"]},
+
+"michelle-obama":{n:"Michelle Obama",b:"January 17, 1964",cat:"Political",
+sum:"Former First Lady. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["White House (former First Lady)"]},
+
+"nancy-pelosi":{n:"Nancy Pelosi",b:"March 26, 1940",cat:"Political",
+sum:"Former Speaker of the House. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["U.S. House of Representatives"]},
+
+"edward-snowden":{n:"Edward Snowden",b:"June 21, 1983",cat:"Other",
+sum:"NSA whistleblower. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["NSA (former)"]},
+
+"rudy-giuliani":{n:"Rudy Giuliani",b:"May 28, 1944",cat:"Political",
+sum:"Former NYC mayor, Trump attorney. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Personal attorney"}],inst:["Mayor of NYC (former)"]},
+
+"nikki-haley":{n:"Nikki Haley",b:"January 20, 1972",cat:"Political",
+sum:"Former UN Ambassador, 2024 presidential candidate. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["UN Ambassador (former)","Governor of SC (former)"]},
+
+"ron-desantis":{n:"Ron DeSantis",b:"September 14, 1978",cat:"Political",
+sum:"Governor of Florida. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Governor of Florida"]},
+
+"michael-flynn":{n:"Michael Flynn",b:"December 24, 1958",cat:"Government",
+sum:"Former National Security Advisor. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"NSA"}],inst:["National Security Advisor (former)","U.S. Army (Lt. Gen.)"]},
+
+"queen-elizabeth":{n:"Queen Elizabeth II",b:"April 21, 1926",d:"September 8, 2022",cat:"Royalty",
+sum:"Former Queen of the United Kingdom. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files. Mother of Prince Andrew.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"prince-andrew",r:"Mother"}],inst:["British Royal Family"]},
+
+"rahm-emanuel":{n:"Rahm Emanuel",b:"November 29, 1959",cat:"Political",
+sum:"U.S. Ambassador to Japan, former Chicago mayor. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Ambassador to Japan","Mayor of Chicago (former)","White House Chief of Staff (former)"]},
+
+"melania-trump":{n:"Melania Trump",b:"April 26, 1970",cat:"Political",
+sum:"Former First Lady. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files. Introduced to Donald Trump by Paolo Zampolli.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Wife"},{t:"paolo-zampolli",r:"Introduced to Trump"}],inst:["White House (former First Lady)"]},
+
+"marjorie-taylor-greene":{n:"Marjorie Taylor Greene",b:"May 27, 1974",cat:"Political",
+sum:"U.S. Representative. Named in DOJ Section 3 Report (Feb 2026). Asked Dana Bash about Israel intelligence connections on CNN.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["U.S. House of Representatives"]},
+
+"gloria-allred":{n:"Gloria Allred",b:"July 3, 1941",cat:"Legal",
+sum:"Attorney representing Epstein victims. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report; represented victims"}],inst:["Allred, Maroko & Goldberg"]},
+
+"david-boies":{n:"David Boies",b:"March 11, 1941",cat:"Legal",
+sum:"Attorney. Named in DOJ Section 3 Report (Feb 2026). Has represented both Epstein victims and Harvey Weinstein.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"harvey-weinstein",r:"Attorney"}],inst:["Boies Schiller Flexner"]}
 };
