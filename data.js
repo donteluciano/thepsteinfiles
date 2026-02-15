@@ -887,8 +887,8 @@ sum:"Former CNN president. Named in DOJ Section 3 Report (Feb 2026) list of pers
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["CNN (former president)","NBC (former)"]},
 
 "mark-zuckerberg":{n:"Mark Zuckerberg",b:"May 14, 1984",cat:"Tech",
-sum:"Meta/Facebook founder. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Meta","Facebook"]},
+sum:"American technology entrepreneur who co-founded Facebook in 2004, now Meta Platforms. Controls the world's largest social networks (Facebook, Instagram, WhatsApp). Net worth ~$200 billion. Pivoted company toward 'metaverse' virtual reality in 2021. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in released files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Meta","Facebook","Instagram","WhatsApp"]},
 
 "paolo-zampolli":{n:"Paolo Zampolli",b:"1966",cat:"Social",
 sum:"Model agent. Named in DOJ Section 3 Report (Feb 2026). Introduced Melania to Donald Trump. Connected to modeling industry networks.",
@@ -907,15 +907,15 @@ sum:"Former UK Prime Minister (1979-1990). Named in DOJ Section 3 Report (Feb 20
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["UK Prime Minister (1979-1990)"]},
 
 "jeff-bezos":{n:"Jeff Bezos",b:"January 12, 1964",cat:"Tech",
-sum:"Amazon founder. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+sum:"American entrepreneur who founded Amazon in 1994, building it into the world's largest e-commerce and cloud computing company. Also founded Blue Origin (aerospace) and owns The Washington Post. Net worth ~$200 billion. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of government officials and politically exposed persons referenced in released Epstein files.",
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Amazon","Blue Origin","Washington Post"]},
 
 "beyonce":{n:"Beyoncé",b:"September 4, 1981",cat:"Entertainment",
-sum:"Musician. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+sum:"American singer, songwriter, and actress. Rose to fame in Destiny's Child, then became one of the best-selling music artists of all time. Business empire includes Parkwood Entertainment. Married to Jay-Z. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in released Epstein files. Nature of reference not detailed.",
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}]},
 
 "george-clooney":{n:"George Clooney",b:"May 6, 1961",cat:"Entertainment",
-sum:"Actor. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+sum:"American actor, filmmaker, and activist. Rose to fame on ER, became A-list with Ocean's Eleven franchise. Two-time Academy Award winner. Co-founded Casamigos tequila (sold for $1B). Known for humanitarian work in Darfur. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in released files.",
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}]},
 
 "julian-assange":{n:"Julian Assange",b:"July 3, 1971",cat:"Other",
@@ -927,15 +927,15 @@ sum:"Son of President Joe Biden. Named in DOJ Section 3 Report (Feb 2026) list o
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}]},
 
 "jared-kushner":{n:"Jared Kushner",b:"January 10, 1981",cat:"Political",
-sum:"Former Trump senior advisor, son-in-law. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Son-in-law"},{t:"ivanka-trump",r:"Husband"}],inst:["White House (former)","Affinity Partners"]},
+sum:"American businessman and former senior White House advisor under Trump. Married to Ivanka Trump. His family's Kushner Companies is a major real estate firm. Father Charles Kushner was pardoned by Trump. Now runs Affinity Partners, which received $2B from Saudi sovereign wealth fund. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Son-in-law"},{t:"ivanka-trump",r:"Husband"}],inst:["White House (former)","Affinity Partners","Kushner Companies"]},
 
 "benjamin-netanyahu":{n:"Benjamin Netanyahu",b:"October 21, 1949",cat:"Political",
-sum:"Prime Minister of Israel. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"ehud-barak",r:"Israeli politics"}],inst:["Prime Minister of Israel"]},
+sum:"Israeli politician serving as Prime Minister (1996-99, 2009-21, 2022-present). Longest-serving PM in Israeli history. MIT-educated economist. His rival Ehud Barak has extensive documented Epstein connections. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of government officials referenced in released files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"ehud-barak",r:"Israeli political rival with deep Epstein ties"}],inst:["Prime Minister of Israel"]},
 
 "michelle-obama":{n:"Michelle Obama",b:"January 17, 1964",cat:"Political",
-sum:"Former First Lady. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+sum:"American attorney and author who served as First Lady (2009-2017). Harvard Law graduate. Her memoir 'Becoming' sold 17+ million copies. Founded Let's Move! and Reach Higher initiatives. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in released files. Nature of reference not detailed.",
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["White House (former First Lady)"]},
 
 "nancy-pelosi":{n:"Nancy Pelosi",b:"March 26, 1940",cat:"Political",
@@ -947,8 +947,8 @@ sum:"NSA whistleblower. Named in DOJ Section 3 Report (Feb 2026) list of persons
 con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["NSA (former)"]},
 
 "rudy-giuliani":{n:"Rudy Giuliani",b:"May 28, 1944",cat:"Political",
-sum:"Former NYC mayor, Trump attorney. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Personal attorney"}],inst:["Mayor of NYC (former)"]},
+sum:"American politician and attorney. Mayor of NYC (1994-2001), credited with crime reduction. U.S. Attorney for SDNY (1983-89). Became Trump's personal attorney. Disbarred in NY and DC over 2020 election claims. Filed for bankruptcy 2023 after defamation judgment. Epstein Connection: Named in DOJ Section 3 Report (Feb 2026). Supported Michael Milken's pardon.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Personal attorney"},{t:"michael-milken",r:"Supported Milken pardon"}],inst:["Mayor of NYC (former)","U.S. Attorney SDNY (former)"]},
 
 "nikki-haley":{n:"Nikki Haley",b:"January 20, 1972",cat:"Political",
 sum:"Former UN Ambassador, 2024 presidential candidate. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
