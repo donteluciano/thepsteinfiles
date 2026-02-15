@@ -651,5 +651,112 @@ con:[{t:"jeffrey-epstein",r:"Attended dinner"}],inst:["NBC","CBS","ABC"]},
 
 "wendi-deng":{n:"Wendi Deng",b:"December 8, 1968",cat:"Social",
 sum:"Businesswoman. Former wife of Rupert Murdoch. In black book.",
-con:[{t:"jeffrey-epstein",r:"In black book"},{t:"rupert-murdoch",r:"Former wife"}]}
+con:[{t:"jeffrey-epstein",r:"In black book"},{t:"rupert-murdoch",r:"Former wife"}]},
+
+"9-east-71st":{n:"9 East 71st Street, Manhattan",cat:"Property",
+sum:"7-story French Neoclassical townhouse (~28,000 sq ft). Primary crime scene cited in federal indictment. Wexner transferred to Epstein 1998 for $20M. FBI found nude photos of underage girls in locked safe. Sold 2021 for $51M, proceeds to victims fund.",
+det:"Built 1930s by Horace Trumbauer for Herbert N. Straus (Macy's heir). Wexner bought 1989 for ~$13M. Notable features included heated sidewalks, lead-lined rooms, extensive surveillance. Where Peggy Siegal held dinners for Epstein's rehabilitation. Site of Johanna Sjoberg's allegations against Prince Andrew.",
+con:[{t:"jeffrey-epstein",r:"Primary residence"},{t:"leslie-wexner",r:"Transferred property 1998"},{t:"prince-andrew",r:"Visited; Sjoberg allegations"},{t:"alan-dershowitz",r:"Visited for massages per testimony"},{t:"bill-gates",r:"Visited"},{t:"woody-allen",r:"Visited"}]},
+
+"el-brillo-way":{n:"358 El Brillo Way, Palm Beach",cat:"Property",
+sum:"14,000 sq ft waterfront estate purchased 1990 for $2.5M. Where Palm Beach police investigation began 2005. FBI raid found explicit photos. Hundreds of underage victims recruited from local schools. Demolished 2021, sold for $18.5M.",
+con:[{t:"jeffrey-epstein",r:"Owner"},{t:"virginia-giuffre",r:"Brought here from Mar-a-Lago"},{t:"courtney-wild",r:"Victim who challenged NPA"},{t:"sarah-kellen",r:"Managed operations"},{t:"ghislaine-maxwell",r:"Present at property"},{t:"juan-alessi",r:"Housekeeper; testified"}]},
+
+"little-st-james":{n:"Little St. James Island",cat:"Property",
+sum:"72-acre private island in USVI purchased 1998 for $7.95M. Known locally as 'Pedophile Island.' Featured main house, guest villas, helipad, cinema, and iconic blue-striped temple. FBI searched 2019. Sold 2023 for $60M.",
+det:"Located off St. Thomas. Epstein called it 'Little Saint Jeff's.' Where Stephen Hawking attended 2006 conference. Numerous victims allege abuse here. Sarah Ransome attempted to swim away to escape. Reid Hoffman and Sergey Brin visited.",
+con:[{t:"jeffrey-epstein",r:"Owner 1998-2019"},{t:"ghislaine-maxwell",r:"Managed operations"},{t:"virginia-giuffre",r:"Alleges trafficking here"},{t:"prince-andrew",r:"Visited"},{t:"bill-clinton",r:"Visit disputed"},{t:"stephen-hawking",r:"2006 conference"},{t:"reid-hoffman",r:"Visited"},{t:"sergey-brin",r:"Visited"},{t:"sarah-ransome",r:"Attempted escape"}]},
+
+"great-st-james":{n:"Great St. James Island",cat:"Property",
+sum:"165-acre island neighboring Little St. James, purchased 2016 for $18-22.5M. Mostly undeveloped. Epstein planned amphitheater and underwater office. Sold with Little St. James 2023 for $60M total.",
+con:[{t:"jeffrey-epstein",r:"Owner 2016-2019"}]},
+
+"zorro-ranch":{n:"Zorro Ranch, New Mexico",cat:"Property",
+sum:"~8,000 acre desert ranch near Santa Fe purchased 1993 for ~$12M. Features 33,000 sq ft mansion, private airstrip, helipad. Never searched by FBI despite other property searches. Epstein planned to 'seed the human race' here. Sold 2023.",
+det:"Owned through 'Zorro Trust' shell company. Visitors included Prince Andrew (2001), Bill Richardson, Woody Allen. Annie Farmer reported abuse here 1996. NM legislators proposed truth commission 2025.",
+con:[{t:"jeffrey-epstein",r:"Owner"},{t:"prince-andrew",r:"Visited 2001"},{t:"bill-richardson",r:"Visited"},{t:"woody-allen",r:"Visited"},{t:"annie-farmer",r:"Reported abuse 1996"}]},
+
+"avenue-foch":{n:"Avenue Foch Apartment, Paris",cat:"Property",
+sum:"Luxury apartment (~8,600 sq ft) in Paris 16th arrondissement. Searched by French authorities. Epstein was returning from Paris when arrested at Teterboro July 2019. Sold for ~$10M.",
+con:[{t:"jeffrey-epstein",r:"Owner"},{t:"jean-luc-brunel",r:"Paris connection"}]},
+
+"dalton-school":{n:"Dalton School",cat:"Institution",
+sum:"Elite Manhattan private school. Epstein hired as math/physics teacher 1974 despite lacking degree. Taught until 1976. Former students recall inappropriate attention to female students. Tutoring led to Bear Stearns career.",
+con:[{t:"jeffrey-epstein",r:"Teacher 1974-76"},{t:"donald-barr",r:"Headmaster who hired Epstein"},{t:"anderson-cooper",r:"Alumnus"}]},
+
+"bear-stearns":{n:"Bear Stearns",cat:"Institution",
+sum:"Investment bank (collapsed 2008). Epstein joined 1976, made partner by 1980, left 1981 for 'Reg D violation.' Remained client until 2008 collapse. Chaired Liquid Funding Ltd (Bear owned 40%).",
+con:[{t:"jeffrey-epstein",r:"Partner 1976-81; client"},{t:"jes-staley",r:"Later moved to JPMorgan"}]},
+
+"j-epstein-co":{n:"J. Epstein & Co.",cat:"Institution",
+sum:"Epstein's financial management firm. Claimed to manage money only for billionaires ($1B+ minimum). Financial Trust Co. and Southern Trust Co. were USVI-registered entities. Controlled through complex shell companies.",
+con:[{t:"jeffrey-epstein",r:"Founder"},{t:"leslie-wexner",r:"Primary client"},{t:"leon-black",r:"$158M fees"},{t:"darren-indyke",r:"Attorney"},{t:"rich-kahn",r:"Accountant"}]},
+
+"jpmorgan-chase":{n:"JPMorgan Chase",cat:"Institution",
+sum:"Largest US bank. Epstein client 1998-2013 with 134 accounts and over $1B in suspicious transactions. Jes Staley had 1,200+ emails with Epstein. Bank visited Epstein in jail after 2008 conviction. Paid $365M+ in settlements.",
+con:[{t:"jeffrey-epstein",r:"Client 1998-2013"},{t:"jes-staley",r:"Senior exec; 1,200+ emails"},{t:"jamie-dimon",r:"CEO"},{t:"mary-erdoes",r:"Executive"}]},
+
+"deutsche-bank":{n:"Deutsche Bank",cat:"Institution",
+sum:"German bank. Became Epstein's primary bank 2013 AFTER JPMorgan dropped him post-conviction. Processed transactions to victims and co-conspirators for 6 years. Paid $75M to victims, acknowledged 'error of onboarding Epstein.'",
+con:[{t:"jeffrey-epstein",r:"Client 2013-2018"}]},
+
+"harvard-university":{n:"Harvard University",cat:"Institution",
+sum:"Accepted $6.5M+ from Epstein. Martin Nowak's Program for Evolutionary Dynamics received bulk of funding. Epstein given office space. Under Larry Summers' presidency, Epstein donated and given access. Conducted review 2020.",
+con:[{t:"jeffrey-epstein",r:"Donor $6.5M+"},{t:"martin-nowak",r:"Received funding; gave office space"},{t:"larry-summers",r:"President during donations"},{t:"steven-pinker",r:"Faculty connection"},{t:"alan-dershowitz",r:"Law School professor"}]},
+
+"mit-media-lab":{n:"MIT Media Lab",cat:"Institution",
+sum:"Research lab. Director Joi Ito secretly solicited donations from Epstein post-conviction, using codes like 'Voldemort.' Bill Gates donated through Epstein to MIT. Seth Lloyd received $225K research + $60K personal gift. Ito resigned Sept 2019.",
+con:[{t:"jeffrey-epstein",r:"Secret donor"},{t:"joi-ito",r:"Director; resigned"},{t:"nicholas-negroponte",r:"Co-founder; supported donations"},{t:"seth-lloyd",r:"Received funding"},{t:"marvin-minsky",r:"Connected"},{t:"bill-gates",r:"Donated through Epstein"}]},
+
+"victorias-secret":{n:"Victoria's Secret / L Brands",cat:"Institution",
+sum:"Retail empire founded by Les Wexner. Epstein had power of attorney over Wexner's finances. Allegations Epstein used Victoria's Secret connections to recruit young women, telling them he was a scout for the brand.",
+con:[{t:"jeffrey-epstein",r:"Used for recruitment"},{t:"leslie-wexner",r:"Founder/CEO"},{t:"abigail-wexner",r:"Co-chair"}]},
+
+"mc2-models":{n:"MC2 Model Management",cat:"Institution",
+sum:"Miami modeling agency founded by Jean-Luc Brunel with Epstein's financial backing. Allegedly used to recruit young women from South America, Eastern Europe, and France. Prosecutors said Brunel would 'farm them out' to Epstein.",
+con:[{t:"jeffrey-epstein",r:"Financial backer"},{t:"jean-luc-brunel",r:"Founder"},{t:"ghislaine-maxwell",r:"Associated"}]},
+
+"apollo-global":{n:"Apollo Global Management",cat:"Institution",
+sum:"Private equity firm. Co-founder Leon Black paid Epstein $158M+ in fees 2012-2017 after conviction. Black stepped down as CEO March 2021. Marc Rowan succeeded. Black paid $62.5M to USVI to resolve claims.",
+con:[{t:"jeffrey-epstein",r:"$158M in fees"},{t:"leon-black",r:"Co-founder; stepped down"},{t:"marc-rowan",r:"Succeeded as CEO"},{t:"josh-harris",r:"Co-founder"}]},
+
+"kirkland-ellis":{n:"Kirkland & Ellis",cat:"Institution",
+sum:"Major law firm. Kenneth Starr was there when joining Epstein's defense team. Bill Barr worked there before and after being AG. Jay Lefkowitz also on defense team from K&E.",
+con:[{t:"jeffrey-epstein",r:"Defense team from firm"},{t:"kenneth-starr",r:"Partner"},{t:"bill-barr",r:"Partner"}]},
+
+"goldman-sachs":{n:"Goldman Sachs",cat:"Institution",
+sum:"Investment bank. Kathy Ruemmler was general counsel until Feb 2026 resignation over Epstein ties. Epstein asked Ruemmler to represent clients. She called Epstein 'Uncle Jeffrey' and was one of three people he called after 2019 arrest.",
+con:[{t:"jeffrey-epstein",r:"Connected through Ruemmler"},{t:"kathy-ruemmler",r:"General counsel; resigned 2026"}]},
+
+"barclays-bank":{n:"Barclays",cat:"Institution",
+sum:"UK bank. Jes Staley was CEO until 2021 resignation under regulatory probe into how he characterized Epstein ties. His 1,200+ emails with Epstein revealed. Admitted relationship with Epstein assistant.",
+con:[{t:"jeffrey-epstein",r:"Connected through Staley"},{t:"jes-staley",r:"CEO; resigned 2021"}]},
+
+"carbyne":{n:"Carbyne (Carbyne911)",cat:"Institution",
+sum:"Israeli emergency tech startup. Investors included Epstein, Ehud Barak, and Nicole Junkermann. Developed emergency call-handling technology. Epstein's investment raised questions about surveillance interests.",
+con:[{t:"jeffrey-epstein",r:"Investor"},{t:"ehud-barak",r:"Investor"},{t:"nicole-junkermann",r:"Investor"}]},
+
+"paul-weiss":{n:"Paul Weiss",cat:"Institution",
+sum:"Major law firm. Managing director Brad Karp called Epstein 'amazing.' Karp stepped down from leadership after revolt by peers following Epstein file revelations.",
+con:[{t:"jeffrey-epstein",r:"Praised by leadership"},{t:"brad-karp",r:"Managing director; stepped down"}]},
+
+"interlochen":{n:"Interlochen Center for the Arts",cat:"Institution",
+sum:"Michigan arts school/summer camp. Epstein attended summer 1967. Donated ~$400K 1990-2003. Epstein and Maxwell allegedly recruited on campus. Woman testified meeting couple there as girl in early 1990s.",
+con:[{t:"jeffrey-epstein",r:"Attended; donated $400K"},{t:"ghislaine-maxwell",r:"Allegedly recruited here"}]},
+
+"santa-fe-institute":{n:"Santa Fe Institute",cat:"Institution",
+sum:"Research institute in New Mexico. Epstein bought NM ranch to be near scientists. Close to co-founder Murray Gell-Mann (Nobel physicist). President David Krakauer visited ranch 2003 with Gell-Mann and Maxwell.",
+con:[{t:"jeffrey-epstein",r:"Connected through Gell-Mann"}]},
+
+"clinton-foundation":{n:"Clinton Foundation",cat:"Institution",
+sum:"Bill Clinton's nonprofit. Clinton flew on Epstein's aircraft for Foundation trips to Africa (2002-2003) with Kevin Spacey and Chris Tucker. Doug Band managed relationship.",
+con:[{t:"jeffrey-epstein",r:"Provided aircraft"},{t:"bill-clinton",r:"Founder"},{t:"kevin-spacey",r:"Flew on Foundation trips"},{t:"chris-tucker",r:"Flew on Foundation trips"},{t:"doug-band",r:"Managed relationship"}]},
+
+"wexner-foundation":{n:"Wexner Foundation",cat:"Institution",
+sum:"Leslie and Abigail Wexner's philanthropic foundation. Epstein served on board. Used foundation connections for social access.",
+con:[{t:"jeffrey-epstein",r:"Board member"},{t:"leslie-wexner",r:"Founder"},{t:"abigail-wexner",r:"Co-chair"}]},
+
+"mcc-manhattan":{n:"Metropolitan Correctional Center",cat:"Institution",
+sum:"Federal jail where Epstein held after July 2019 arrest. Found dead August 10, 2019. Circumstances disputed: broken cameras, sleeping guards, removal from suicide watch. Medical examiner ruled suicide. MCC closed permanently 2021.",
+con:[{t:"jeffrey-epstein",r:"Died here August 10, 2019"}]}
 };

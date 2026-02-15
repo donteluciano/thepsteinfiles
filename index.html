@@ -159,7 +159,7 @@ a{color:var(--lk);text-decoration:none}a:hover{text-decoration:underline}
 <script src="data.js"></script>
 <script>
 // Category colors
-const CC={"Principal":"#b32424","Inner Circle":"#d35400","Operations":"#e67e22","Personal Associate":"#f39c12","Victim/Accuser":"#8e44ad","Political":"#2980b9","Government":"#16a085","Legal":"#1abc9c","Finance":"#27ae60","Tech":"#6c5ce7","Philanthropy":"#27ae60","Academia":"#d4ac0d","Royalty":"#c0392b","Entertainment":"#8e44ad","Social":"#7f8c8d","Historical":"#95a5a6","Other":"#7f8c8d"};
+const CC={"Principal":"#b32424","Inner Circle":"#d35400","Operations":"#e67e22","Personal Associate":"#f39c12","Victim/Accuser":"#8e44ad","Political":"#2980b9","Government":"#16a085","Legal":"#1abc9c","Finance":"#27ae60","Tech":"#6c5ce7","Philanthropy":"#27ae60","Academia":"#d4ac0d","Royalty":"#c0392b","Entertainment":"#8e44ad","Social":"#7f8c8d","Historical":"#95a5a6","Other":"#7f8c8d","Property":"#8b4513","Institution":"#2c3e50","Media":"#9b59b6"};
 function cc(c){return CC[c]||"#7f8c8d"}
 function e(s){return s?s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"):""}
 function L(id,txt){if(DB[id])return'<a href="#" onclick="event.preventDefault();go(\''+id+'\')">'+e(txt||DB[id].n)+'</a>';return e(txt||id.replace(/-/g,' '))}
@@ -206,7 +206,7 @@ h+='<span class="sb-l" onclick="go(\'jeffrey-epstein\')">Jeffrey Epstein</span><
 h+='<div class="sb-sec"><div class="sb-t">Resources</div>';
 ['p-email:Email archive','p-flights:Flight logs','p-court:Court documents','p-pods:Podcasts','p-timeline:Timeline'].forEach(s=>{const[id,nm]=s.split(':');h+='<span class="sb-l" onclick="go(\''+id+'\')">'+nm+'</span>'});h+='</div>';
 const cats={};Object.entries(DB).forEach(([id,p])=>{const c=p.cat||"Other";if(!cats[c])cats[c]=[];cats[c].push({id,n:p.n})});
-["Principal","Inner Circle","Operations","Victim/Accuser","Political","Government","Legal","Finance","Tech","Philanthropy","Academia","Royalty","Entertainment","Social","Historical","Personal Associate","Other"].forEach(cat=>{
+["Principal","Inner Circle","Operations","Victim/Accuser","Political","Government","Legal","Finance","Tech","Philanthropy","Academia","Royalty","Entertainment","Media","Social","Historical","Personal Associate","Property","Institution","Other"].forEach(cat=>{
 if(!cats[cat])return;cats[cat].sort((a,b)=>a.n.localeCompare(b.n));
 h+='<div class="sb-sec"><div class="sb-t" style="color:'+cc(cat)+'">'+e(cat)+'</div>';
 cats[cat].forEach(p=>{h+='<span class="sb-l" onclick="go(\''+p.id+'\')">'+e(p.n)+'</span>'});h+='</div>'});
