@@ -876,5 +876,33 @@ con:[{t:"casey-wasserman",r:"LA28 coverage"},{t:"la28",r:"Olympics fallout"}]},
 "zeteo":{n:"Zeteo (Mehdi Hasan)",cat:"Source",
 sum:"~20+ articles/episodes. Mehdi Hasan's independent outlet after MSNBC. 'Unshocked' series with Naomi Klein. Among most persistent independent voices on the story.",
 det:"Key Work:\n• 'Unshocked' series with Naomi Klein\n• 'Ask the Editor' live shows\n• Rep. Ro Khanna interview on cover-up allegations\n• Edward Luce interview\n\nNote: Hasan's MSNBC show was cancelled; he continued coverage independently.",
-con:[{t:"jeffrey-epstein",r:"Persistent coverage"}]}
+con:[{t:"jeffrey-epstein",r:"Persistent coverage"}]},
+
+"jd-vance":{n:"JD Vance",b:"August 2, 1984",cat:"Political",
+sum:"Vice President (2025-). Named in DOJ Section 3 Report (Feb 2026) list of government officials and politically exposed persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Vice President","U.S. Senate (former)"]},
+
+"jeff-zucker":{n:"Jeff Zucker",b:"April 9, 1965",cat:"Media",
+sum:"Former CNN president. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["CNN (former president)","NBC (former)"]},
+
+"mark-zuckerberg":{n:"Mark Zuckerberg",b:"May 14, 1984",cat:"Tech",
+sum:"Meta/Facebook founder. Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["Meta","Facebook"]},
+
+"paolo-zampolli":{n:"Paolo Zampolli",b:"1966",cat:"Social",
+sum:"Model agent. Named in DOJ Section 3 Report (Feb 2026). Introduced Melania to Donald Trump. Connected to modeling industry networks.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"donald-trump",r:"Introduced Melania to Trump"}],inst:["ID Model Management"]},
+
+"pam-bondi":{n:"Pam Bondi",b:"November 17, 1965",cat:"Government",
+sum:"U.S. Attorney General (2025-). Signed DOJ Section 3 Report on Epstein Files Transparency Act (Feb 14, 2026). Former Florida AG.",
+con:[{t:"jeffrey-epstein",r:"Signed Epstein files report as AG"},{t:"donald-trump",r:"Appointed AG"}],inst:["U.S. Attorney General","Florida AG (former)"]},
+
+"todd-blanche":{n:"Todd Blanche",b:"c. 1976",cat:"Government",
+sum:"Deputy U.S. Attorney General (2025-). Co-signed DOJ Section 3 Report on Epstein Files (Feb 14, 2026). Was Trump's defense attorney before joining DOJ.",
+con:[{t:"jeffrey-epstein",r:"Co-signed Epstein files report"},{t:"donald-trump",r:"Former defense attorney; appointed Deputy AG"},{t:"pam-bondi",r:"Co-signed report"}],inst:["Deputy AG","Blanche Law (former)"]},
+
+"margaret-thatcher":{n:"Margaret Thatcher",b:"October 13, 1925",d:"April 8, 2013",cat:"Political",
+sum:"Former UK Prime Minister (1979-1990). Named in DOJ Section 3 Report (Feb 2026) list of persons referenced in Epstein files.",
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"}],inst:["UK Prime Minister (1979-1990)"]}
 };
