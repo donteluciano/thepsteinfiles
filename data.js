@@ -984,5 +984,9 @@ con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report; represented vict
 
 "david-boies":{n:"David Boies",b:"March 11, 1941",cat:"Legal",
 sum:"Attorney. Named in DOJ Section 3 Report (Feb 2026). Has represented both Epstein victims and Harvey Weinstein.",
-con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"harvey-weinstein",r:"Attorney"}],inst:["Boies Schiller Flexner"]}
+con:[{t:"jeffrey-epstein",r:"Named in DOJ Epstein files report"},{t:"harvey-weinstein",r:"Attorney"}],inst:["Boies Schiller Flexner"]},
+
+"anwar-addae":{n:"Anwar Addae",cat:"Other",
+sum:"This is filler text. Entry pending additional information.",
+con:[{t:"jeffrey-epstein",r:"Connection pending verification"}]}
 };
